@@ -2,6 +2,10 @@
 
 **ICS 3202: Artificial Intelligence — Semester Project, Deliverable 1**
 BSc. Informatics & Computer Science, Strathmore University
+group members
+Jason Kuria 189946
+John Kioko 189983
+Michelle Wachanga 176833
 
 Machine-learning engine for **MloHub — An Affordable Multi-Tenant Mobile Food Ordering and Business Intelligence Platform for Small Food Vendors**.
 
