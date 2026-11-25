@@ -14,7 +14,7 @@ Machine-learning engine for **MloHub**, an affordable multi-tenant mobile food o
 | 2 · Base model (CAT 2) | [`RandomForest_Base.ipynb`](RandomForest_Base.ipynb) | Data cleaning with a quarantine and reconciliation, 7 EDA observations, leak-free features, date-based cross-validation, regularisation search, comparison with Ridge / Decision Tree / Gradient Boosting / simple baselines, rolling backtest |
 | 3 · **Final ML engine** | [`RandomForest_Final.ipynb`](RandomForest_Final.ipynb) | The engine exactly as the MloHub app runs it (all CRISP-DM stages): data checks, EDA, features with a leakage test, Random Forest theory, rolling-origin evaluation against 4 simple methods, input validation (valid and invalid inputs), **explainable AI** (why each forecast came out as it did), and a check that the notebook's model is identical to the app's |
 
-## Final engine at a glance (Deliverable 3)
+## Final engine (Deliverable 3)
 
 * **Data:** 60 days × 21 dishes of *Campus Bites* sales from the MloHub database (3,666 portions; demonstration data, not real customers), in [`data/campus_bites_daily_sales.csv`](data/campus_bites_daily_sales.csv).
 * **Inputs (features):** which dish, sales yesterday, sales on the same weekday last week, 7-day average, the restaurant's total yesterday, day of week, weekend flag. All are computed only from days *before* the forecast day.
