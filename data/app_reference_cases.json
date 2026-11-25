@@ -1,0 +1,6101 @@
+{
+ "atol": 1e-09,
+ "cases": [
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 1.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.330452452305713
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 0.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.739395969884318
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 3.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0604323655524284
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 1.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 0.8571428571428571,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0405501449963475
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.4285714285714286,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.829287268478935
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.2857142857142858,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.9873104858100463
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.5580504396808361
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 4.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 3.0,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.319649962378643
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.0,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.3532295646888852
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 3.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.8571428571428572,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.5055397111702549
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 1.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 0.8571428571428571,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.0986741457226703
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.8571428571428571,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.0317177892228404
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 3.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.8571428571428572,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.143192863059909
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 4.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 3.7142857142857144,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.175463043616761
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 3.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.0,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.026731913298712
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 4.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 2.7142857142857144,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0975727131197206
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 3.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.7142857142857142,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.945376886923661
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 2.7142857142857144,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.059208067801106
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 3.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 2.5714285714285716,
+    "restaurant_total_lag_1": 98.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.5820745609495397
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 3.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 3.857142857142857,
+    "restaurant_total_lag_1": 98.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.4942226219899992
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.4285714285714286,
+    "restaurant_total_lag_1": 98.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 0.9316694969839078
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 2.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 3.4285714285714284,
+    "restaurant_total_lag_1": 98.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.9732490501804558
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 1.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.7142857142857142,
+    "restaurant_total_lag_1": 98.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.1474676826640786
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 4.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 3.142857142857143,
+    "restaurant_total_lag_1": 98.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.9721721878458187
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 2.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.5714285714285716,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.968453563445707
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 1.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 3.0,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.971965761015663
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 1.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 0.7142857142857143,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.1818233139753835
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 0.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0326442942923113
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 0.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 0.7142857142857143,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.1237593494167446
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0189398266641705
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 3.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.0,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.414006179111379
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 2.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.142857142857143,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.6908192216071196
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 3.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.0,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.9448914742716623
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 8.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 1.8571428571428572,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.639803557319921
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 4.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.4285714285714286,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.6377259190060145
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 9.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.6218016158070725
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 0.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 2.0,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.5125764082820368
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 2.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 2.0,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.6720094357285222
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.7142857142857142,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.3861165601282908
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 2.857142857142857,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.7002179232845367
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.7652012205010978
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.3368781760229522
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 2.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.7142857142857144,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.225761378716411
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 7.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 2.4285714285714284,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.6117333163709664
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 1.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.8571428571428572,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.1262613956939354
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 0.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 3.142857142857143,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.405327007456095
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 3.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 1.8571428571428572,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0301039815562363
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 1.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 2.4285714285714284,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.6566101201076404
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 2.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.7142857142857142,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.6563179936118568
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 1.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.57430044023303
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.1147577107686186
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 3.142857142857143,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.5896920255236728
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 2.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.3968451377252487
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 2.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 2.0,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.3719784738792302
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 3.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 2.0,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.207960942799884
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 9.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 3.857142857142857,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.654444783240422
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 1.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.8571428571428572,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.8717415180812045
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 2.7142857142857144,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.149989203514784
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 0.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.0,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.7115919190796829
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 1.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 3.0,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.256135521820604
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 8.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 4.0,
+    "restaurant_total_lag_1": 101.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.146656664354919
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 7.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 3.857142857142857,
+    "restaurant_total_lag_1": 101.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.9490307424358826
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 3.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.2857142857142858,
+    "restaurant_total_lag_1": 101.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 0.9669761571744873
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 2.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 0.7142857142857143,
+    "restaurant_total_lag_1": 101.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.3073813461773285
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 5.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 101.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.19572485133277
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 3.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 101.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.7290644476476287
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 9.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 4.285714285714286,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.153594766500003
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 2.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 3.7142857142857144,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.4060525704502314
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 3.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.2857142857142858,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.7653816043486865
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 3.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.0,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.9949245678914997
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.2857142857142858,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.5981185660866333
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 1.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.1428571428571428,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.8242247378677308
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 3.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 4.571428571428571,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.545658336025341
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 4.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 3.4285714285714284,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.081519310073165
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 3.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.2857142857142856,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.23609144297526
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 5.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 2.142857142857143,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.188062087895089
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 3.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 1.4285714285714286,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.738736113896425
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 1.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.0,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0408932194121823
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 0.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 4.714285714285714,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.8321788586229575
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 4.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 4.142857142857143,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.259675151927989
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 0.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.142857142857143,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.221971511885609
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 3.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 2.7142857142857144,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.3124715096380952
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 0.8571428571428571,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.638384877114618
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.9065454218969906
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 7.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 4.428571428571429,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.480598083686805
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 10.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 7.285714285714286,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.565929027072768
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 5.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.5714285714285714,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.9369576499811516
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 2.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 2.4285714285714284,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0780633720141455
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 1.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 0.8571428571428571,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.8467325838906123
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 2.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.7142857142857142,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.0431578654876072
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 12.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 7.571428571428571,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.350012590572769
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 13.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 10.428571428571429,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 10.695133376971608
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.0,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 0.5483862571444783
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 1.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.4285714285714286,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.3645987970167295
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 3.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.2857142857142858,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 0.897973974642509
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 1.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.0,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 0.791186679000923
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 6.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 9.142857142857142,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.715390010531267
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 15.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 11.285714285714286,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.525723373168226
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 0.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 1.1428571428571428,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.7156524048596824
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 0.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 1.1428571428571428,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.709842926936085
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.1428571428571428,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.5734765133371513
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 0.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 1.2857142857142858,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.7203134587924764
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 5.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 7.571428571428571,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 10.895788455426782
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 16.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 10.714285714285714,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 11.819448847720901
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 1.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 0.7142857142857143,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.1694053036991043
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 2.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.1428571428571428,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.3742430394327139
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 4.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.2857142857142858,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.6492269076686503
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 0.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 1.4285714285714286,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.2201272720186975
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.9345136926447184
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 28.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 12.4297,
+    "restaurant_total_lag_1": 107.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.172232197447948
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 18.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 16.848,
+    "restaurant_total_lag_1": 125.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.25244580310757
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 24.0,
+    "lag_7": 18.0,
+    "rolling_mean_7": 8.8219,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.532419138416627
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 2.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 5.7448,
+    "restaurant_total_lag_1": 25.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.968785212311532
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 0.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 17.8193,
+    "restaurant_total_lag_1": 125.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.775435159203542
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 10.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 7.9443,
+    "restaurant_total_lag_1": 89.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.698708105400418
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 25.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 19.9931,
+    "restaurant_total_lag_1": 131.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.272450150790902
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 2.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 6.8079,
+    "restaurant_total_lag_1": 142.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.654746195883493
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 9.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 9.149,
+    "restaurant_total_lag_1": 147.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.057699094606184
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 0.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 14.2172,
+    "restaurant_total_lag_1": 93.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.7193225449659275
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 13.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 7.9755,
+    "restaurant_total_lag_1": 149.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.408603097825235
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 15.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 2.329,
+    "restaurant_total_lag_1": 129.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.5758519861445426
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 24.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 12.0033,
+    "restaurant_total_lag_1": 125.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.25244580310757
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 29.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 5.1729,
+    "restaurant_total_lag_1": 107.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.524404561527475
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 29.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 10.259,
+    "restaurant_total_lag_1": 6.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.806281956884708
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 7.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 2.58,
+    "restaurant_total_lag_1": 12.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.133712125718829
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 16.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 13.4097,
+    "restaurant_total_lag_1": 109.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.658589474251242
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 4.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 17.6861,
+    "restaurant_total_lag_1": 31.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.2036992977066525
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 22.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 13.4861,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.702293177954944
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 17.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 13.3951,
+    "restaurant_total_lag_1": 78.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.668940651031403
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 25.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 10.038,
+    "restaurant_total_lag_1": 122.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.247096360883127
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 28.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 8.6613,
+    "restaurant_total_lag_1": 75.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.19966088760884
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 8.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.6622,
+    "restaurant_total_lag_1": 117.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.7420377314012951
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 16.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 9.7904,
+    "restaurant_total_lag_1": 51.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.695697457319946
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 22.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 9.3331,
+    "restaurant_total_lag_1": 127.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.322770687917746
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 13.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 13.278,
+    "restaurant_total_lag_1": 8.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.455341066026055
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 9.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 9.1531,
+    "restaurant_total_lag_1": 25.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.603535545158034
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 22.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 15.7017,
+    "restaurant_total_lag_1": 131.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.438122045724601
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 14.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 19.3054,
+    "restaurant_total_lag_1": 108.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.272450150790902
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 23.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 18.8028,
+    "restaurant_total_lag_1": 68.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.12317197755375
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 11.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 3.8917,
+    "restaurant_total_lag_1": 105.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.739776745985198
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 14.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 0.2807,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.17581900170835
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 18.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 18.6436,
+    "restaurant_total_lag_1": 21.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.22379832940108
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 25.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 4.9568,
+    "restaurant_total_lag_1": 11.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.650030307489706
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 17.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 5.3707,
+    "restaurant_total_lag_1": 91.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.757544981069556
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 0.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 13.2916,
+    "restaurant_total_lag_1": 147.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.965219395029446
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 29.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 17.214,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.567604323601811
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 7.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 11.7587,
+    "restaurant_total_lag_1": 129.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.960082182197606
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 2.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 13.3711,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.315630214012568
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.107563700519137
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 12.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 2.9707,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.9631632192088166
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 0.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 2.1227,
+    "restaurant_total_lag_1": 18.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.8666616248913717
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 26.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 12.9254,
+    "restaurant_total_lag_1": 6.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.45152417993943
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 16.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 6.5552,
+    "restaurant_total_lag_1": 77.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.93951585860652
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 10.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 2.4275,
+    "restaurant_total_lag_1": 119.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.873212367111712
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 19.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 3.4147,
+    "restaurant_total_lag_1": 133.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.9408210855394894
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 13.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 6.7284,
+    "restaurant_total_lag_1": 59.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.342584934879222
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 22.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 10.9471,
+    "restaurant_total_lag_1": 8.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.685795832099049
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 20.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 3.4673,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.041750129501449
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 1.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 17.3619,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.517164732734589
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 22.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 17.5563,
+    "restaurant_total_lag_1": 33.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.22379832940108
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 16.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 15.7082,
+    "restaurant_total_lag_1": 132.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.16443795984431
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 5.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 16.8875,
+    "restaurant_total_lag_1": 99.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.4171453967608185
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 13.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 8.2817,
+    "restaurant_total_lag_1": 20.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.131648948689199
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 9.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 6.8813,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.0892099551427
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 15.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 16.2999,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.167148817563874
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 5.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 10.3867,
+    "restaurant_total_lag_1": 113.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.9883812134133025
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 16.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 10.494,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.023024217927468
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 3.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 4.2866,
+    "restaurant_total_lag_1": 1.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.5511519203358657
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 28.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 12.9136,
+    "restaurant_total_lag_1": 104.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.08067643839219
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 25.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 16.9899,
+    "restaurant_total_lag_1": 46.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.948325697744238
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 11.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 3.1352,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.88676931796864
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 18.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 10.7676,
+    "restaurant_total_lag_1": 28.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.201702231054982
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 22.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 11.116,
+    "restaurant_total_lag_1": 145.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.456194001002438
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 6.0,
+    "lag_7": 18.0,
+    "rolling_mean_7": 5.894,
+    "restaurant_total_lag_1": 68.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.329369303154681
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 17.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 2.0291,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.785990321277811
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 30.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 3.4255,
+    "restaurant_total_lag_1": 15.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.689350117090311
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 11.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 16.0463,
+    "restaurant_total_lag_1": 27.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.353280880840869
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 10.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 11.7622,
+    "restaurant_total_lag_1": 16.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.230395279009348
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 29.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 3.2278,
+    "restaurant_total_lag_1": 65.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.882998173320692
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 0.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 17.3299,
+    "restaurant_total_lag_1": 65.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.343554145337235
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 30.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.1462,
+    "restaurant_total_lag_1": 60.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.847276275518363
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 9.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.8774,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.453967406833116
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 29.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 7.0061,
+    "restaurant_total_lag_1": 116.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.92128258616455
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 20.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 14.2843,
+    "restaurant_total_lag_1": 9.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.788512596615348
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 10.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 4.3127,
+    "restaurant_total_lag_1": 118.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.458930491145983
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 21.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 2.3888,
+    "restaurant_total_lag_1": 95.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.554395267928068
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 16.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 19.4858,
+    "restaurant_total_lag_1": 64.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.156450280634685
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 9.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 16.3363,
+    "restaurant_total_lag_1": 14.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.041649188033189
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.412338878532776
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 10.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 14.5425,
+    "restaurant_total_lag_1": 31.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.907783395261147
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 24.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 6.3777,
+    "restaurant_total_lag_1": 5.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.017615731109711
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 30.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 3.949,
+    "restaurant_total_lag_1": 14.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.2463577407776905
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 3.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 12.3794,
+    "restaurant_total_lag_1": 30.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.234160836368657
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 4.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 7.0808,
+    "restaurant_total_lag_1": 77.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.849920562338491
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 13.0,
+    "lag_7": 18.0,
+    "rolling_mean_7": 2.526,
+    "restaurant_total_lag_1": 106.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.2743995306386564
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 12.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 15.532,
+    "restaurant_total_lag_1": 56.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.632984198213495
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 4.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 10.8585,
+    "restaurant_total_lag_1": 138.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 10.228622349192202
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 17.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 17.7829,
+    "restaurant_total_lag_1": 37.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.118673731776484
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 5.5366,
+    "restaurant_total_lag_1": 122.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.6310346179179
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 8.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 6.2949,
+    "restaurant_total_lag_1": 22.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.001690821931055
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 5.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 0.7602,
+    "restaurant_total_lag_1": 131.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.5741219946306502
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 8.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 12.6601,
+    "restaurant_total_lag_1": 81.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.86084495408702
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 21.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 0.2282,
+    "restaurant_total_lag_1": 62.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.7665022054418125
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 1.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 13.5829,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.839270703353523
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 28.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 7.9815,
+    "restaurant_total_lag_1": 92.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.792989287401054
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 7.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 16.581,
+    "restaurant_total_lag_1": 87.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.419006680275064
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 6.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 7.1822,
+    "restaurant_total_lag_1": 117.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.478095616937528
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 25.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 17.9404,
+    "restaurant_total_lag_1": 148.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.251876809479363
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 6.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 12.5603,
+    "restaurant_total_lag_1": 39.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.765137461169294
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 28.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 19.0088,
+    "restaurant_total_lag_1": 133.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.345827424424561
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 13.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 0.7501,
+    "restaurant_total_lag_1": 44.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.0536635617396337
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 9.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 10.9345,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.465458319886693
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 22.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 2.015,
+    "restaurant_total_lag_1": 4.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.16845749000122
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 6.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 16.9742,
+    "restaurant_total_lag_1": 149.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.412861633192517
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 18.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 19.1109,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.147079496047182
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 30.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 16.2409,
+    "restaurant_total_lag_1": 40.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.788512596615348
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 3.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 2.8378,
+    "restaurant_total_lag_1": 99.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.126688158275584
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 17.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 6.2084,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.386384886469196
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 28.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 5.9058,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.69424836581318
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 4.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 3.7739,
+    "restaurant_total_lag_1": 2.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.9671958109169836
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 19.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 9.6002,
+    "restaurant_total_lag_1": 108.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.217260617922385
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 25.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 18.0425,
+    "restaurant_total_lag_1": 137.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.272450150790902
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 23.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 0.5903,
+    "restaurant_total_lag_1": 80.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.0794179633390844
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 4.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 0.5684,
+    "restaurant_total_lag_1": 29.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.019159170505251
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 21.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 14.0877,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.788512596615348
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 11.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 7.3599,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.302843343089091
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 4.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 12.2004,
+    "restaurant_total_lag_1": 32.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.8983528617352174
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 10.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 2.1479,
+    "restaurant_total_lag_1": 18.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.196329428422638
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.435655986845438
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 15.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 9.975,
+    "restaurant_total_lag_1": 142.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.272450150790902
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 7.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 7.1735,
+    "restaurant_total_lag_1": 116.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.893786808181643
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 11.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 1.3807,
+    "restaurant_total_lag_1": 22.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.361449540242919
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 15.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 6.2405,
+    "restaurant_total_lag_1": 57.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.580802223218247
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 10.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 10.1254,
+    "restaurant_total_lag_1": 84.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.282599613596615
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 29.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 14.477,
+    "restaurant_total_lag_1": 126.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.326853203878165
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 10.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 3.9297,
+    "restaurant_total_lag_1": 118.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.1755473548006945
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 27.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 18.3948,
+    "restaurant_total_lag_1": 89.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.395833387924138
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 26.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 11.7973,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.612636980143754
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 14.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 11.3314,
+    "restaurant_total_lag_1": 32.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.413665761662084
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 8.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 16.7129,
+    "restaurant_total_lag_1": 81.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.801152701184791
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 26.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 8.889,
+    "restaurant_total_lag_1": 37.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.130897320200728
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 20.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 4.6859,
+    "restaurant_total_lag_1": 36.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.506431786033761
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 24.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 5.3582,
+    "restaurant_total_lag_1": 147.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.310238078935293
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 20.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 7.989,
+    "restaurant_total_lag_1": 140.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.564802841780396
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 10.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 8.1932,
+    "restaurant_total_lag_1": 24.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.037192824599924
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 24.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 9.8937,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.658589474251242
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 6.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 7.0432,
+    "restaurant_total_lag_1": 84.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.659050461131221
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 29.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 14.4887,
+    "restaurant_total_lag_1": 2.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.144544862960113
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 17.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 5.0435,
+    "restaurant_total_lag_1": 85.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.866843856955459
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 20.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 8.2924,
+    "restaurant_total_lag_1": 121.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.209439501417057
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 28.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 6.7749,
+    "restaurant_total_lag_1": 9.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.338257464034364
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 7.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 2.4168,
+    "restaurant_total_lag_1": 68.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.5273586682144527
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 0.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 4.1845,
+    "restaurant_total_lag_1": 117.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.602025193420578
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 8.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 12.6034,
+    "restaurant_total_lag_1": 20.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.510609116993117
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 22.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 10.7792,
+    "restaurant_total_lag_1": 2.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.187858792287008
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 4.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 19.4463,
+    "restaurant_total_lag_1": 118.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.78438589982095
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 19.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 3.4156,
+    "restaurant_total_lag_1": 79.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.259267322330428
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 18.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 14.2366,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.157488607704358
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 3.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 5.4175,
+    "restaurant_total_lag_1": 107.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.469478588101557
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 5.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 14.685,
+    "restaurant_total_lag_1": 59.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 10.026195561655118
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 21.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 6.8253,
+    "restaurant_total_lag_1": 88.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.206090185175881
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 19.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 5.107,
+    "restaurant_total_lag_1": 83.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.98674180103938
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 8.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 12.8719,
+    "restaurant_total_lag_1": 34.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.229029528227481
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 15.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 7.3237,
+    "restaurant_total_lag_1": 119.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.127951544821708
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 11.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 10.2459,
+    "restaurant_total_lag_1": 102.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.448231300809185
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 6.0,
+    "lag_7": 18.0,
+    "rolling_mean_7": 1.0838,
+    "restaurant_total_lag_1": 105.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.5326100233030875
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 2.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 14.4413,
+    "restaurant_total_lag_1": 130.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.559944504025388
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 17.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 17.1603,
+    "restaurant_total_lag_1": 123.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.658589474251242
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.0095052744615334
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 10.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 6.3587,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.043651392975078
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 5.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 19.7771,
+    "restaurant_total_lag_1": 44.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.192210932958224
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 8.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 18.9495,
+    "restaurant_total_lag_1": 135.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.955806107699493
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 27.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 12.6108,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.165419429176204
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 14.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 4.1934,
+    "restaurant_total_lag_1": 130.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.576658479577887
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 16.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 10.2736,
+    "restaurant_total_lag_1": 69.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.540274179474066
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 27.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 9.7717,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.25244580310757
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 26.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 6.5152,
+    "restaurant_total_lag_1": 100.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.159718312533953
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 19.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 10.7819,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.788512596615348
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 17.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 19.595,
+    "restaurant_total_lag_1": 36.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.788512596615348
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 25.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 15.9831,
+    "restaurant_total_lag_1": 146.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.172232197447948
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 25.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 17.3084,
+    "restaurant_total_lag_1": 71.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.623528691488247
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 9.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 16.3931,
+    "restaurant_total_lag_1": 35.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.254448937321425
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 30.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 13.859,
+    "restaurant_total_lag_1": 32.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.166082505385915
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 5.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 13.8596,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.817924283265326
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 4.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 12.8245,
+    "restaurant_total_lag_1": 125.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.022907108550495
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 30.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 6.013,
+    "restaurant_total_lag_1": 131.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.480653628151996
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 28.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 1.8398,
+    "restaurant_total_lag_1": 104.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.6365471115797465
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 28.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 2.9129,
+    "restaurant_total_lag_1": 130.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.4156644986402425
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 15.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.1634,
+    "restaurant_total_lag_1": 90.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.4634902266844985
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 27.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 13.9694,
+    "restaurant_total_lag_1": 65.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.119063123444898
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 24.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 3.2762,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.717581565771712
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 26.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 8.4568,
+    "restaurant_total_lag_1": 110.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.87581126246761
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 26.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 3.4134,
+    "restaurant_total_lag_1": 57.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.050663551695746
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 30.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 4.2543,
+    "restaurant_total_lag_1": 40.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.089286486202726
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 27.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 14.4222,
+    "restaurant_total_lag_1": 117.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.144719522322077
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 11.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 4.1836,
+    "restaurant_total_lag_1": 79.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 4.560663847735482
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 23.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 18.7024,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.658589474251242
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 15.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 17.5742,
+    "restaurant_total_lag_1": 54.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.682773025657124
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 6.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 15.1211,
+    "restaurant_total_lag_1": 90.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.05146863613969
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 21.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 13.7582,
+    "restaurant_total_lag_1": 29.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.118673731776484
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 6.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 8.6717,
+    "restaurant_total_lag_1": 109.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.221951794067217
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 17.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 12.9639,
+    "restaurant_total_lag_1": 68.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.50129735936721
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 23.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 7.966,
+    "restaurant_total_lag_1": 122.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.64362009876232
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 14.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 5.4617,
+    "restaurant_total_lag_1": 90.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.062658061922744
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 4.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 15.8666,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.095053963052867
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 11.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 7.548,
+    "restaurant_total_lag_1": 12.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.025285650699061
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 21.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 6.525,
+    "restaurant_total_lag_1": 65.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.149472626497504
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 2.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 9.3712,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.98772192336531
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.039917657767162
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 8.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 0.7446,
+    "restaurant_total_lag_1": 10.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.167314164657144
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 16.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 9.0488,
+    "restaurant_total_lag_1": 27.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.109359677774927
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 25.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 16.0038,
+    "restaurant_total_lag_1": 116.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.390124210226767
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 15.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 0.4393,
+    "restaurant_total_lag_1": 81.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.0675375705440024
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 0.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 7.8368,
+    "restaurant_total_lag_1": 43.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.2190099293576235
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 27.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 0.3647,
+    "restaurant_total_lag_1": 11.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.226957033082671
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 2.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 12.0391,
+    "restaurant_total_lag_1": 30.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.07719996370732
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 30.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 18.1016,
+    "restaurant_total_lag_1": 39.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.162377435480188
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 30.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 4.8402,
+    "restaurant_total_lag_1": 119.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.408009221122266
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 7.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 4.7686,
+    "restaurant_total_lag_1": 80.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 4.537659737492335
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 1.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 4.9844,
+    "restaurant_total_lag_1": 47.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.084533333210882
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 6.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 2.2743,
+    "restaurant_total_lag_1": 121.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.337869470292772
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 12.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 10.5983,
+    "restaurant_total_lag_1": 127.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.120830633433188
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 12.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 0.6808,
+    "restaurant_total_lag_1": 119.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.655009407834934
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 4.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 4.8207,
+    "restaurant_total_lag_1": 133.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.031046305534945
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 8.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 8.6342,
+    "restaurant_total_lag_1": 148.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.934816347885719
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 11.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 17.3903,
+    "restaurant_total_lag_1": 42.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.0336888126386015
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 3.0,
+    "lag_7": 18.0,
+    "rolling_mean_7": 7.3697,
+    "restaurant_total_lag_1": 55.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.016716744952015
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 2.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 3.4013,
+    "restaurant_total_lag_1": 103.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.959906222175103
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 3.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 2.1132,
+    "restaurant_total_lag_1": 106.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.8389314065259106
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 0.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 3.9329,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.175131085418311
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 25.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 10.4944,
+    "restaurant_total_lag_1": 95.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.691037147693495
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 8.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 18.7346,
+    "restaurant_total_lag_1": 9.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.494073717408182
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 22.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 12.6177,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.124234361950113
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 28.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 10.994,
+    "restaurant_total_lag_1": 9.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.1623142232294725
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 30.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 19.5766,
+    "restaurant_total_lag_1": 119.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.272450150790902
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 30.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 12.6096,
+    "restaurant_total_lag_1": 8.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.567604323601811
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 30.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 13.0087,
+    "restaurant_total_lag_1": 123.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.685553187209536
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 9.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 3.3668,
+    "restaurant_total_lag_1": 16.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.766165425408442
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 6.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 5.738,
+    "restaurant_total_lag_1": 11.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.976938066264183
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 29.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 1.4262,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.4051140627391647
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 17.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 10.3339,
+    "restaurant_total_lag_1": 138.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.172232197447948
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 15.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 1.0645,
+    "restaurant_total_lag_1": 90.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.451204154703684
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 17.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 9.2805,
+    "restaurant_total_lag_1": 62.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.853069748520601
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 0.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 7.7167,
+    "restaurant_total_lag_1": 22.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.621346123771795
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 21.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 3.5694,
+    "restaurant_total_lag_1": 60.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.670027217899794
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 17.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 10.097,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.429014861378445
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 8.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 13.1116,
+    "restaurant_total_lag_1": 119.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.05310878522421
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 0.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 1.4863,
+    "restaurant_total_lag_1": 33.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.192812165469121
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.0331994482566587
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 22.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 13.7342,
+    "restaurant_total_lag_1": 82.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.26679059674416
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 15.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 2.3074,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.076953461622191
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 12.0,
+    "lag_7": 2.0,
+    "rolling_mean_7": 19.316,
+    "restaurant_total_lag_1": 127.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.729828853672701
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 13.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 11.3351,
+    "restaurant_total_lag_1": 131.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.627581176992946
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 2.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 13.6331,
+    "restaurant_total_lag_1": 5.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.404638026733617
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 8.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 2.3116,
+    "restaurant_total_lag_1": 62.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.1896835649546547
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 19.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 11.525,
+    "restaurant_total_lag_1": 145.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.272450150790902
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 9.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 10.625,
+    "restaurant_total_lag_1": 7.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.0550044670134655
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 29.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 3.5104,
+    "restaurant_total_lag_1": 117.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.306933255774722
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 3.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 13.2897,
+    "restaurant_total_lag_1": 40.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.069325602158423
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 30.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 18.655,
+    "restaurant_total_lag_1": 122.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.234107449210004
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 2.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 0.0795,
+    "restaurant_total_lag_1": 135.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 1.9741456660045942
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 4.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 18.8056,
+    "restaurant_total_lag_1": 5.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.326667671925026
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 19.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 18.968,
+    "restaurant_total_lag_1": 97.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.8451185745226
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 20.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 8.8816,
+    "restaurant_total_lag_1": 31.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.267544176347394
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 7.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 6.4952,
+    "restaurant_total_lag_1": 17.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.250648453773136
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 12.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 5.4742,
+    "restaurant_total_lag_1": 113.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.450192414654489
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 30.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 5.948,
+    "restaurant_total_lag_1": 114.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.979050346240987
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 19.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 9.39,
+    "restaurant_total_lag_1": 80.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.294998963884417
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 5.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 12.2482,
+    "restaurant_total_lag_1": 7.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.1900888782341985
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 6.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 5.8893,
+    "restaurant_total_lag_1": 103.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.8158570367349975
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 27.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 13.2938,
+    "restaurant_total_lag_1": 42.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.313560243291281
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 3.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 7.7032,
+    "restaurant_total_lag_1": 85.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.387765174353795
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 17.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 4.1533,
+    "restaurant_total_lag_1": 140.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 4.048608196052014
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 29.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 10.7645,
+    "restaurant_total_lag_1": 96.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.272450150790902
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 8.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 17.3128,
+    "restaurant_total_lag_1": 115.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.562877265708151
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 5.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 6.0405,
+    "restaurant_total_lag_1": 50.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.91018376961765
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 5.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 8.6102,
+    "restaurant_total_lag_1": 148.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.477525387140809
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 14.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 12.7273,
+    "restaurant_total_lag_1": 15.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.139288452703702
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 9.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 0.7232,
+    "restaurant_total_lag_1": 131.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.6449966882215263
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 17.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 16.7284,
+    "restaurant_total_lag_1": 57.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.337103862554716
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 20.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 10.6975,
+    "restaurant_total_lag_1": 130.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.658589474251242
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 25.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 16.6213,
+    "restaurant_total_lag_1": 129.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.326853203878165
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 26.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 15.0248,
+    "restaurant_total_lag_1": 134.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.55374485826208
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 0.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 10.5136,
+    "restaurant_total_lag_1": 99.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.649365835009218
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 28.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 7.2841,
+    "restaurant_total_lag_1": 62.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.051987742398929
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 18.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 7.1246,
+    "restaurant_total_lag_1": 7.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.865350623462076
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 7.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 3.4964,
+    "restaurant_total_lag_1": 100.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.8605538472283647
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 26.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 8.709,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.855271624337997
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.9620757090911183
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 6.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 2.4625,
+    "restaurant_total_lag_1": 88.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.4298602718370264
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 16.0,
+    "lag_7": 28.0,
+    "rolling_mean_7": 12.525,
+    "restaurant_total_lag_1": 106.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.658589474251242
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 10.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 17.9496,
+    "restaurant_total_lag_1": 24.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.269913285047283
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 24.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 13.1776,
+    "restaurant_total_lag_1": 117.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.446719823112045
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 13.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 12.8729,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.291070765498982
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 25.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 17.1973,
+    "restaurant_total_lag_1": 87.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.63973596664773
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 5.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 1.7319,
+    "restaurant_total_lag_1": 60.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.2778313978141953
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 14.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 19.0101,
+    "restaurant_total_lag_1": 25.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.157057812973062
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 25.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 15.0717,
+    "restaurant_total_lag_1": 33.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.788512596615348
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 0.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 9.2754,
+    "restaurant_total_lag_1": 16.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.432562934070289
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 15.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 8.9764,
+    "restaurant_total_lag_1": 89.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.464997397969535
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 3.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 8.153,
+    "restaurant_total_lag_1": 109.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.003909840768396
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 2.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 14.2575,
+    "restaurant_total_lag_1": 134.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.185337129509925
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 13.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 7.0015,
+    "restaurant_total_lag_1": 43.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.105707589530926
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 27.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 12.0502,
+    "restaurant_total_lag_1": 78.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.508108668399885
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 24.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 8.6931,
+    "restaurant_total_lag_1": 26.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.192708666748917
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 7.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 18.6536,
+    "restaurant_total_lag_1": 19.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.843407474520093
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 28.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 1.6555,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.969797641389906
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 13.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 12.2988,
+    "restaurant_total_lag_1": 148.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.194636297977049
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 7.0,
+    "lag_7": 23.0,
+    "rolling_mean_7": 16.4959,
+    "restaurant_total_lag_1": 134.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.071316283135655
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 16.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 5.0612,
+    "restaurant_total_lag_1": 142.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.52542770541575
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 8.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 9.2018,
+    "restaurant_total_lag_1": 105.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.835924418664842
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 27.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 5.212,
+    "restaurant_total_lag_1": 113.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.5781191364262614
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 11.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 10.3442,
+    "restaurant_total_lag_1": 67.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.345182515444223
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 3.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 12.1282,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.362778783036138
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 19.0,
+    "lag_7": 19.0,
+    "rolling_mean_7": 6.7527,
+    "restaurant_total_lag_1": 81.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.8178270209649385
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 29.0,
+    "lag_7": 30.0,
+    "rolling_mean_7": 12.7568,
+    "restaurant_total_lag_1": 86.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.236566424201877
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 20.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 12.2454,
+    "restaurant_total_lag_1": 96.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.390124210226767
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 3.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 17.3875,
+    "restaurant_total_lag_1": 110.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.348915822059205
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 21.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 11.687,
+    "restaurant_total_lag_1": 145.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.25244580310757
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 11.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 15.2125,
+    "restaurant_total_lag_1": 98.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.295544385704024
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 11.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 5.0218,
+    "restaurant_total_lag_1": 122.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.638982024919526
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 11.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 9.3195,
+    "restaurant_total_lag_1": 5.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.863352207236207
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 22.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 10.8075,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.507461234299471
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 1.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 15.393,
+    "restaurant_total_lag_1": 110.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.691075950122002
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 12.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 18.2897,
+    "restaurant_total_lag_1": 65.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.100449356929624
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 6.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 1.1534,
+    "restaurant_total_lag_1": 58.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.116660573525813
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 1.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 7.3424,
+    "restaurant_total_lag_1": 138.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.775176179348975
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 3.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 12.2505,
+    "restaurant_total_lag_1": 132.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.545900197297259
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.432623896545066
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 13.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 2.3309,
+    "restaurant_total_lag_1": 17.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.0694226406416005
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 25.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 1.4365,
+    "restaurant_total_lag_1": 99.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.493856829994662
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 4.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 19.4034,
+    "restaurant_total_lag_1": 143.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.544755350464523
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 0.0,
+    "lag_7": 24.0,
+    "rolling_mean_7": 15.4084,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 10.367059249051316
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 29.0,
+    "lag_7": 11.0,
+    "rolling_mean_7": 11.1349,
+    "restaurant_total_lag_1": 112.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.78533021473424
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 29.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 8.2931,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.08549593523665
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 20.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 19.7021,
+    "restaurant_total_lag_1": 42.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.360498975855014
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 12.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 0.9765,
+    "restaurant_total_lag_1": 116.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.5141820727132105
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 13.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 9.5598,
+    "restaurant_total_lag_1": 37.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.611692602883589
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 0.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 15.5654,
+    "restaurant_total_lag_1": 24.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.480656819351676
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 4.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 3.8339,
+    "restaurant_total_lag_1": 118.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.307457339998499
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 19.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 4.1111,
+    "restaurant_total_lag_1": 40.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.517283634551234
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 25.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 5.9021,
+    "restaurant_total_lag_1": 26.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.228565955243591
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 14.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 1.5412,
+    "restaurant_total_lag_1": 100.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.876267376577092
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 27.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 7.3409,
+    "restaurant_total_lag_1": 23.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.034966452536114
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 17.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 3.8885,
+    "restaurant_total_lag_1": 65.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.8355536418329956
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 9.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 11.2452,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.884986902233904
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 22.0,
+    "lag_7": 7.0,
+    "rolling_mean_7": 9.2797,
+    "restaurant_total_lag_1": 89.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.181856177698863
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 25.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 2.7537,
+    "restaurant_total_lag_1": 38.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.581718760204487
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 17.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 13.6625,
+    "restaurant_total_lag_1": 99.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.964775212532565
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 18.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 9.4179,
+    "restaurant_total_lag_1": 48.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.354060738166777
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 24.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 18.7612,
+    "restaurant_total_lag_1": 121.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.934927913467967
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 29.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 11.9048,
+    "restaurant_total_lag_1": 73.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.978857551260802
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 25.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 0.9843,
+    "restaurant_total_lag_1": 142.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 2.0201820237462904
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 27.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 4.5266,
+    "restaurant_total_lag_1": 70.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.701704945581074
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 20.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 0.6807,
+    "restaurant_total_lag_1": 78.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.5903196163397406
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 8.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 7.852,
+    "restaurant_total_lag_1": 26.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.145009250072596
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 9.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 5.1686,
+    "restaurant_total_lag_1": 106.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.101537906258242
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 15.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 5.679,
+    "restaurant_total_lag_1": 33.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.308586654643519
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 29.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 0.9471,
+    "restaurant_total_lag_1": 17.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.6657537246915743
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 24.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 1.8015,
+    "restaurant_total_lag_1": 51.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.439455369365559
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 6.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 10.8045,
+    "restaurant_total_lag_1": 7.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.059669268281887
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 6.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 12.522,
+    "restaurant_total_lag_1": 81.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.402067286595797
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 8.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 19.5739,
+    "restaurant_total_lag_1": 105.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.7929276189246215
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 10.0,
+    "lag_7": 17.0,
+    "rolling_mean_7": 14.918,
+    "restaurant_total_lag_1": 56.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.904641760207745
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 11.0,
+    "lag_7": 26.0,
+    "rolling_mean_7": 13.5221,
+    "restaurant_total_lag_1": 126.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.979869033991036
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 15.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 8.579,
+    "restaurant_total_lag_1": 87.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.109812417974185
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 11.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 10.8326,
+    "restaurant_total_lag_1": 65.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.367858000702432
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 20.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 6.8881,
+    "restaurant_total_lag_1": 103.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.989273153404581
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 0.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 0.0,
+    "restaurant_total_lag_1": 0.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.421493098861112
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 14.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 13.6437,
+    "restaurant_total_lag_1": 10.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.528868579677404
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 4.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 13.1904,
+    "restaurant_total_lag_1": 103.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.6986024524366234
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 22.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 12.909,
+    "restaurant_total_lag_1": 91.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.431113447776567
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 8.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 4.859,
+    "restaurant_total_lag_1": 57.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.38779175368881
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 6.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 19.7241,
+    "restaurant_total_lag_1": 117.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.012565815176112
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 0.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 0.768,
+    "restaurant_total_lag_1": 135.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.5655781273998648
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 11.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 7.8752,
+    "restaurant_total_lag_1": 33.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.7603801401521055
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 6.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 12.043,
+    "restaurant_total_lag_1": 45.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 7.558467457787314
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 24.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 5.723,
+    "restaurant_total_lag_1": 111.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.849091640773765
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 13.0,
+    "lag_7": 6.0,
+    "rolling_mean_7": 1.7884,
+    "restaurant_total_lag_1": 96.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.48081515057221
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 11.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 4.3027,
+    "restaurant_total_lag_1": 139.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 4.372340694149904
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 19.0,
+    "lag_7": 18.0,
+    "rolling_mean_7": 15.3549,
+    "restaurant_total_lag_1": 125.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 8.710406453568222
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 24.0,
+    "lag_7": 10.0,
+    "rolling_mean_7": 19.5687,
+    "restaurant_total_lag_1": 61.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.129878310329164
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 28.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 14.8074,
+    "restaurant_total_lag_1": 84.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.289575683461136
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 2.0,
+    "lag_7": 27.0,
+    "rolling_mean_7": 3.8907,
+    "restaurant_total_lag_1": 68.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.162979822029525
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 2.0,
+    "lag_7": 14.0,
+    "rolling_mean_7": 3.5162,
+    "restaurant_total_lag_1": 57.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 3.3774836997444
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 19.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 9.3302,
+    "restaurant_total_lag_1": 116.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.237264965605717
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 30.0,
+    "lag_7": 8.0,
+    "rolling_mean_7": 17.0893,
+    "restaurant_total_lag_1": 74.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.41332597606785
+  },
+  {
+   "input": {
+    "dish_slug": "burger-combo",
+    "lag_1": 2.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 0.9253,
+    "restaurant_total_lag_1": 118.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 1.8519916774970404
+  },
+  {
+   "input": {
+    "dish_slug": "cheeseburger",
+    "lag_1": 22.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 1.3461,
+    "restaurant_total_lag_1": 99.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 2.3620061511762076
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-burger",
+    "lag_1": 16.0,
+    "lag_7": 13.0,
+    "rolling_mean_7": 14.8948,
+    "restaurant_total_lag_1": 107.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 8.234107449210004
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-pilau",
+    "lag_1": 3.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 13.7173,
+    "restaurant_total_lag_1": 30.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 9.582645439391765
+  },
+  {
+   "input": {
+    "dish_slug": "chicken-wings-6",
+    "lag_1": 1.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 17.3126,
+    "restaurant_total_lag_1": 63.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 9.958445754702527
+  },
+  {
+   "input": {
+    "dish_slug": "classic-beef-burger",
+    "lag_1": 25.0,
+    "lag_7": 18.0,
+    "rolling_mean_7": 18.2796,
+    "restaurant_total_lag_1": 57.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.869255638653862
+  },
+  {
+   "input": {
+    "dish_slug": "coleslaw",
+    "lag_1": 19.0,
+    "lag_7": 21.0,
+    "rolling_mean_7": 5.4039,
+    "restaurant_total_lag_1": 72.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.834257578874555
+  },
+  {
+   "input": {
+    "dish_slug": "fish-fingers-chips",
+    "lag_1": 18.0,
+    "lag_7": 29.0,
+    "rolling_mean_7": 5.4758,
+    "restaurant_total_lag_1": 123.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 5.41738749757291
+  },
+  {
+   "input": {
+    "dish_slug": "fresh-juice",
+    "lag_1": 14.0,
+    "lag_7": 16.0,
+    "rolling_mean_7": 15.0126,
+    "restaurant_total_lag_1": 19.0,
+    "day_of_week": 2,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.186227185267436
+  },
+  {
+   "input": {
+    "dish_slug": "kachumbari",
+    "lag_1": 17.0,
+    "lag_7": 4.0,
+    "rolling_mean_7": 5.3179,
+    "restaurant_total_lag_1": 68.0,
+    "day_of_week": 6,
+    "is_weekend": 1
+   },
+   "expected_raw": 5.491970234827799
+  },
+  {
+   "input": {
+    "dish_slug": "masala-tea",
+    "lag_1": 0.0,
+    "lag_7": 5.0,
+    "rolling_mean_7": 7.8165,
+    "restaurant_total_lag_1": 23.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.815673047185215
+  },
+  {
+   "input": {
+    "dish_slug": "mineral-water",
+    "lag_1": 11.0,
+    "lag_7": 12.0,
+    "rolling_mean_7": 15.1039,
+    "restaurant_total_lag_1": 1.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.545051422372922
+  },
+  {
+   "input": {
+    "dish_slug": "plain-chips",
+    "lag_1": 17.0,
+    "lag_7": 0.0,
+    "rolling_mean_7": 1.3902,
+    "restaurant_total_lag_1": 4.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 3.0533761507678125
+  },
+  {
+   "input": {
+    "dish_slug": "quarter-chicken-chips",
+    "lag_1": 1.0,
+    "lag_7": 20.0,
+    "rolling_mean_7": 6.2697,
+    "restaurant_total_lag_1": 33.0,
+    "day_of_week": 5,
+    "is_weekend": 1
+   },
+   "expected_raw": 6.249229031733545
+  },
+  {
+   "input": {
+    "dish_slug": "samosa",
+    "lag_1": 0.0,
+    "lag_7": 15.0,
+    "rolling_mean_7": 1.0271,
+    "restaurant_total_lag_1": 4.0,
+    "day_of_week": 0,
+    "is_weekend": 0
+   },
+   "expected_raw": 4.122393357907195
+  },
+  {
+   "input": {
+    "dish_slug": "samosa-combo",
+    "lag_1": 30.0,
+    "lag_7": 3.0,
+    "rolling_mean_7": 8.8737,
+    "restaurant_total_lag_1": 13.0,
+    "day_of_week": 4,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.175998638551855
+  },
+  {
+   "input": {
+    "dish_slug": "soda-300ml",
+    "lag_1": 24.0,
+    "lag_7": 25.0,
+    "rolling_mean_7": 11.8873,
+    "restaurant_total_lag_1": 126.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.172232197447948
+  },
+  {
+   "input": {
+    "dish_slug": "student-lunch-combo",
+    "lag_1": 7.0,
+    "lag_7": 1.0,
+    "rolling_mean_7": 7.4674,
+    "restaurant_total_lag_1": 8.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.705502139315221
+  },
+  {
+   "input": {
+    "dish_slug": "vegetable-rice",
+    "lag_1": 1.0,
+    "lag_7": 9.0,
+    "rolling_mean_7": 10.5051,
+    "restaurant_total_lag_1": 128.0,
+    "day_of_week": 1,
+    "is_weekend": 0
+   },
+   "expected_raw": 6.877396361581412
+  },
+  {
+   "input": {
+    "dish_slug": "veggie-burger",
+    "lag_1": 14.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 10.5814,
+    "restaurant_total_lag_1": 24.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.182131662734414
+  },
+  {
+   "input": {
+    "dish_slug": "beef-stew",
+    "lag_1": 30.0,
+    "lag_7": 22.0,
+    "rolling_mean_7": 7.9959,
+    "restaurant_total_lag_1": 19.0,
+    "day_of_week": 3,
+    "is_weekend": 0
+   },
+   "expected_raw": 7.375047126899876
+  }
+ ]
+}

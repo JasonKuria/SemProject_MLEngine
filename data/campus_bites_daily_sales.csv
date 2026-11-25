@@ -1,0 +1,1261 @@
+date,dish_slug,dish_name,portions
+2026-08-27,beef-stew,Beef Stew,1
+2026-08-27,burger-combo,Burger Combo,4
+2026-08-27,cheeseburger,Cheeseburger,4
+2026-08-27,chicken-burger,Chicken Burger,3
+2026-08-27,chicken-pilau,Chicken Pilau,4
+2026-08-27,chicken-wings-6,Chicken Wings (6),0
+2026-08-27,classic-beef-burger,Classic Beef Burger,7
+2026-08-27,coleslaw,Coleslaw,5
+2026-08-27,fish-fingers-chips,Fish Fingers & Chips,5
+2026-08-27,fresh-juice,Fresh Juice,1
+2026-08-27,kachumbari,Kachumbari,5
+2026-08-27,masala-tea,Masala Tea,1
+2026-08-27,mineral-water,Mineral Water,1
+2026-08-27,plain-chips,Plain Chips,2
+2026-08-27,quarter-chicken-chips,Quarter Chicken & Chips,5
+2026-08-27,samosa,Samosa,2
+2026-08-27,samosa-combo,Samosa Combo,1
+2026-08-27,soda-300ml,Soda 300ml,0
+2026-08-27,student-lunch-combo,Student Lunch Combo,3
+2026-08-27,vegetable-rice,Vegetable Rice,5
+2026-08-27,veggie-burger,Veggie Burger,1
+2026-08-28,beef-stew,Beef Stew,5
+2026-08-28,burger-combo,Burger Combo,0
+2026-08-28,cheeseburger,Cheeseburger,9
+2026-08-28,chicken-burger,Chicken Burger,2
+2026-08-28,chicken-pilau,Chicken Pilau,1
+2026-08-28,chicken-wings-6,Chicken Wings (6),1
+2026-08-28,classic-beef-burger,Classic Beef Burger,11
+2026-08-28,coleslaw,Coleslaw,6
+2026-08-28,fish-fingers-chips,Fish Fingers & Chips,1
+2026-08-28,fresh-juice,Fresh Juice,5
+2026-08-28,kachumbari,Kachumbari,3
+2026-08-28,masala-tea,Masala Tea,0
+2026-08-28,mineral-water,Mineral Water,0
+2026-08-28,plain-chips,Plain Chips,5
+2026-08-28,quarter-chicken-chips,Quarter Chicken & Chips,5
+2026-08-28,samosa,Samosa,1
+2026-08-28,samosa-combo,Samosa Combo,6
+2026-08-28,soda-300ml,Soda 300ml,8
+2026-08-28,student-lunch-combo,Student Lunch Combo,6
+2026-08-28,vegetable-rice,Vegetable Rice,2
+2026-08-28,veggie-burger,Veggie Burger,7
+2026-08-29,beef-stew,Beef Stew,2
+2026-08-29,burger-combo,Burger Combo,0
+2026-08-29,cheeseburger,Cheeseburger,1
+2026-08-29,chicken-burger,Chicken Burger,0
+2026-08-29,chicken-pilau,Chicken Pilau,5
+2026-08-29,chicken-wings-6,Chicken Wings (6),0
+2026-08-29,classic-beef-burger,Classic Beef Burger,3
+2026-08-29,coleslaw,Coleslaw,1
+2026-08-29,fish-fingers-chips,Fish Fingers & Chips,0
+2026-08-29,fresh-juice,Fresh Juice,5
+2026-08-29,kachumbari,Kachumbari,0
+2026-08-29,masala-tea,Masala Tea,2
+2026-08-29,mineral-water,Mineral Water,0
+2026-08-29,plain-chips,Plain Chips,4
+2026-08-29,quarter-chicken-chips,Quarter Chicken & Chips,4
+2026-08-29,samosa,Samosa,2
+2026-08-29,samosa-combo,Samosa Combo,0
+2026-08-29,soda-300ml,Soda 300ml,1
+2026-08-29,student-lunch-combo,Student Lunch Combo,5
+2026-08-29,vegetable-rice,Vegetable Rice,0
+2026-08-29,veggie-burger,Veggie Burger,0
+2026-08-30,beef-stew,Beef Stew,0
+2026-08-30,burger-combo,Burger Combo,0
+2026-08-30,cheeseburger,Cheeseburger,2
+2026-08-30,chicken-burger,Chicken Burger,1
+2026-08-30,chicken-pilau,Chicken Pilau,0
+2026-08-30,chicken-wings-6,Chicken Wings (6),0
+2026-08-30,classic-beef-burger,Classic Beef Burger,4
+2026-08-30,coleslaw,Coleslaw,1
+2026-08-30,fish-fingers-chips,Fish Fingers & Chips,0
+2026-08-30,fresh-juice,Fresh Juice,1
+2026-08-30,kachumbari,Kachumbari,0
+2026-08-30,masala-tea,Masala Tea,1
+2026-08-30,mineral-water,Mineral Water,0
+2026-08-30,plain-chips,Plain Chips,0
+2026-08-30,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-08-30,samosa,Samosa,3
+2026-08-30,samosa-combo,Samosa Combo,2
+2026-08-30,soda-300ml,Soda 300ml,0
+2026-08-30,student-lunch-combo,Student Lunch Combo,4
+2026-08-30,vegetable-rice,Vegetable Rice,4
+2026-08-30,veggie-burger,Veggie Burger,0
+2026-08-31,beef-stew,Beef Stew,5
+2026-08-31,burger-combo,Burger Combo,1
+2026-08-31,cheeseburger,Cheeseburger,4
+2026-08-31,chicken-burger,Chicken Burger,2
+2026-08-31,chicken-pilau,Chicken Pilau,2
+2026-08-31,chicken-wings-6,Chicken Wings (6),0
+2026-08-31,classic-beef-burger,Classic Beef Burger,4
+2026-08-31,coleslaw,Coleslaw,2
+2026-08-31,fish-fingers-chips,Fish Fingers & Chips,2
+2026-08-31,fresh-juice,Fresh Juice,2
+2026-08-31,kachumbari,Kachumbari,1
+2026-08-31,masala-tea,Masala Tea,3
+2026-08-31,mineral-water,Mineral Water,2
+2026-08-31,plain-chips,Plain Chips,2
+2026-08-31,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-08-31,samosa,Samosa,4
+2026-08-31,samosa-combo,Samosa Combo,1
+2026-08-31,soda-300ml,Soda 300ml,3
+2026-08-31,student-lunch-combo,Student Lunch Combo,0
+2026-08-31,vegetable-rice,Vegetable Rice,7
+2026-08-31,veggie-burger,Veggie Burger,0
+2026-09-01,beef-stew,Beef Stew,2
+2026-09-01,burger-combo,Burger Combo,3
+2026-09-01,cheeseburger,Cheeseburger,2
+2026-09-01,chicken-burger,Chicken Burger,3
+2026-09-01,chicken-pilau,Chicken Pilau,4
+2026-09-01,chicken-wings-6,Chicken Wings (6),2
+2026-09-01,classic-beef-burger,Classic Beef Burger,8
+2026-09-01,coleslaw,Coleslaw,1
+2026-09-01,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-01,fresh-juice,Fresh Juice,4
+2026-09-01,kachumbari,Kachumbari,0
+2026-09-01,masala-tea,Masala Tea,1
+2026-09-01,mineral-water,Mineral Water,2
+2026-09-01,plain-chips,Plain Chips,5
+2026-09-01,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-09-01,samosa,Samosa,1
+2026-09-01,samosa-combo,Samosa Combo,0
+2026-09-01,soda-300ml,Soda 300ml,0
+2026-09-01,student-lunch-combo,Student Lunch Combo,5
+2026-09-01,vegetable-rice,Vegetable Rice,0
+2026-09-01,veggie-burger,Veggie Burger,1
+2026-09-02,beef-stew,Beef Stew,1
+2026-09-02,burger-combo,Burger Combo,2
+2026-09-02,cheeseburger,Cheeseburger,5
+2026-09-02,chicken-burger,Chicken Burger,4
+2026-09-02,chicken-pilau,Chicken Pilau,0
+2026-09-02,chicken-wings-6,Chicken Wings (6),2
+2026-09-02,classic-beef-burger,Classic Beef Burger,12
+2026-09-02,coleslaw,Coleslaw,1
+2026-09-02,fish-fingers-chips,Fish Fingers & Chips,3
+2026-09-02,fresh-juice,Fresh Juice,3
+2026-09-02,kachumbari,Kachumbari,2
+2026-09-02,masala-tea,Masala Tea,3
+2026-09-02,mineral-water,Mineral Water,1
+2026-09-02,plain-chips,Plain Chips,5
+2026-09-02,quarter-chicken-chips,Quarter Chicken & Chips,4
+2026-09-02,samosa,Samosa,3
+2026-09-02,samosa-combo,Samosa Combo,0
+2026-09-02,soda-300ml,Soda 300ml,2
+2026-09-02,student-lunch-combo,Student Lunch Combo,0
+2026-09-02,vegetable-rice,Vegetable Rice,1
+2026-09-02,veggie-burger,Veggie Burger,0
+2026-09-03,beef-stew,Beef Stew,2
+2026-09-03,burger-combo,Burger Combo,1
+2026-09-03,cheeseburger,Cheeseburger,4
+2026-09-03,chicken-burger,Chicken Burger,9
+2026-09-03,chicken-pilau,Chicken Pilau,8
+2026-09-03,chicken-wings-6,Chicken Wings (6),1
+2026-09-03,classic-beef-burger,Classic Beef Burger,7
+2026-09-03,coleslaw,Coleslaw,5
+2026-09-03,fish-fingers-chips,Fish Fingers & Chips,2
+2026-09-03,fresh-juice,Fresh Juice,3
+2026-09-03,kachumbari,Kachumbari,1
+2026-09-03,masala-tea,Masala Tea,3
+2026-09-03,mineral-water,Mineral Water,1
+2026-09-03,plain-chips,Plain Chips,7
+2026-09-03,quarter-chicken-chips,Quarter Chicken & Chips,12
+2026-09-03,samosa,Samosa,1
+2026-09-03,samosa-combo,Samosa Combo,1
+2026-09-03,soda-300ml,Soda 300ml,2
+2026-09-03,student-lunch-combo,Student Lunch Combo,8
+2026-09-03,vegetable-rice,Vegetable Rice,1
+2026-09-03,veggie-burger,Veggie Burger,5
+2026-09-04,beef-stew,Beef Stew,1
+2026-09-04,burger-combo,Burger Combo,3
+2026-09-04,cheeseburger,Cheeseburger,4
+2026-09-04,chicken-burger,Chicken Burger,7
+2026-09-04,chicken-pilau,Chicken Pilau,3
+2026-09-04,chicken-wings-6,Chicken Wings (6),5
+2026-09-04,classic-beef-burger,Classic Beef Burger,8
+2026-09-04,coleslaw,Coleslaw,1
+2026-09-04,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-04,fresh-juice,Fresh Juice,3
+2026-09-04,kachumbari,Kachumbari,0
+2026-09-04,masala-tea,Masala Tea,4
+2026-09-04,mineral-water,Mineral Water,4
+2026-09-04,plain-chips,Plain Chips,4
+2026-09-04,quarter-chicken-chips,Quarter Chicken & Chips,7
+2026-09-04,samosa,Samosa,5
+2026-09-04,samosa-combo,Samosa Combo,1
+2026-09-04,soda-300ml,Soda 300ml,8
+2026-09-04,student-lunch-combo,Student Lunch Combo,6
+2026-09-04,vegetable-rice,Vegetable Rice,0
+2026-09-04,veggie-burger,Veggie Burger,0
+2026-09-05,beef-stew,Beef Stew,0
+2026-09-05,burger-combo,Burger Combo,0
+2026-09-05,cheeseburger,Cheeseburger,2
+2026-09-05,chicken-burger,Chicken Burger,3
+2026-09-05,chicken-pilau,Chicken Pilau,4
+2026-09-05,chicken-wings-6,Chicken Wings (6),1
+2026-09-05,classic-beef-burger,Classic Beef Burger,3
+2026-09-05,coleslaw,Coleslaw,0
+2026-09-05,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-05,fresh-juice,Fresh Juice,2
+2026-09-05,kachumbari,Kachumbari,4
+2026-09-05,masala-tea,Masala Tea,2
+2026-09-05,mineral-water,Mineral Water,3
+2026-09-05,plain-chips,Plain Chips,5
+2026-09-05,quarter-chicken-chips,Quarter Chicken & Chips,4
+2026-09-05,samosa,Samosa,2
+2026-09-05,samosa-combo,Samosa Combo,1
+2026-09-05,soda-300ml,Soda 300ml,4
+2026-09-05,student-lunch-combo,Student Lunch Combo,4
+2026-09-05,vegetable-rice,Vegetable Rice,4
+2026-09-05,veggie-burger,Veggie Burger,0
+2026-09-06,beef-stew,Beef Stew,3
+2026-09-06,burger-combo,Burger Combo,1
+2026-09-06,cheeseburger,Cheeseburger,2
+2026-09-06,chicken-burger,Chicken Burger,4
+2026-09-06,chicken-pilau,Chicken Pilau,2
+2026-09-06,chicken-wings-6,Chicken Wings (6),4
+2026-09-06,classic-beef-burger,Classic Beef Burger,1
+2026-09-06,coleslaw,Coleslaw,0
+2026-09-06,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-06,fresh-juice,Fresh Juice,0
+2026-09-06,kachumbari,Kachumbari,2
+2026-09-06,masala-tea,Masala Tea,0
+2026-09-06,mineral-water,Mineral Water,0
+2026-09-06,plain-chips,Plain Chips,1
+2026-09-06,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-09-06,samosa,Samosa,1
+2026-09-06,samosa-combo,Samosa Combo,5
+2026-09-06,soda-300ml,Soda 300ml,1
+2026-09-06,student-lunch-combo,Student Lunch Combo,1
+2026-09-06,vegetable-rice,Vegetable Rice,1
+2026-09-06,veggie-burger,Veggie Burger,6
+2026-09-07,beef-stew,Beef Stew,3
+2026-09-07,burger-combo,Burger Combo,1
+2026-09-07,cheeseburger,Cheeseburger,1
+2026-09-07,chicken-burger,Chicken Burger,4
+2026-09-07,chicken-pilau,Chicken Pilau,5
+2026-09-07,chicken-wings-6,Chicken Wings (6),3
+2026-09-07,classic-beef-burger,Classic Beef Burger,9
+2026-09-07,coleslaw,Coleslaw,2
+2026-09-07,fish-fingers-chips,Fish Fingers & Chips,6
+2026-09-07,fresh-juice,Fresh Juice,0
+2026-09-07,kachumbari,Kachumbari,0
+2026-09-07,masala-tea,Masala Tea,5
+2026-09-07,mineral-water,Mineral Water,6
+2026-09-07,plain-chips,Plain Chips,13
+2026-09-07,quarter-chicken-chips,Quarter Chicken & Chips,8
+2026-09-07,samosa,Samosa,7
+2026-09-07,samosa-combo,Samosa Combo,1
+2026-09-07,soda-300ml,Soda 300ml,0
+2026-09-07,student-lunch-combo,Student Lunch Combo,4
+2026-09-07,vegetable-rice,Vegetable Rice,7
+2026-09-07,veggie-burger,Veggie Burger,7
+2026-09-08,beef-stew,Beef Stew,3
+2026-09-08,burger-combo,Burger Combo,1
+2026-09-08,cheeseburger,Cheeseburger,0
+2026-09-08,chicken-burger,Chicken Burger,9
+2026-09-08,chicken-pilau,Chicken Pilau,4
+2026-09-08,chicken-wings-6,Chicken Wings (6),0
+2026-09-08,classic-beef-burger,Classic Beef Burger,1
+2026-09-08,coleslaw,Coleslaw,2
+2026-09-08,fish-fingers-chips,Fish Fingers & Chips,3
+2026-09-08,fresh-juice,Fresh Juice,4
+2026-09-08,kachumbari,Kachumbari,5
+2026-09-08,masala-tea,Masala Tea,0
+2026-09-08,mineral-water,Mineral Water,4
+2026-09-08,plain-chips,Plain Chips,9
+2026-09-08,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-09-08,samosa,Samosa,2
+2026-09-08,samosa-combo,Samosa Combo,3
+2026-09-08,soda-300ml,Soda 300ml,7
+2026-09-08,student-lunch-combo,Student Lunch Combo,4
+2026-09-08,vegetable-rice,Vegetable Rice,2
+2026-09-08,veggie-burger,Veggie Burger,1
+2026-09-09,beef-stew,Beef Stew,0
+2026-09-09,burger-combo,Burger Combo,0
+2026-09-09,cheeseburger,Cheeseburger,1
+2026-09-09,chicken-burger,Chicken Burger,6
+2026-09-09,chicken-pilau,Chicken Pilau,5
+2026-09-09,chicken-wings-6,Chicken Wings (6),1
+2026-09-09,classic-beef-burger,Classic Beef Burger,15
+2026-09-09,coleslaw,Coleslaw,7
+2026-09-09,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-09,fresh-juice,Fresh Juice,4
+2026-09-09,kachumbari,Kachumbari,6
+2026-09-09,masala-tea,Masala Tea,0
+2026-09-09,mineral-water,Mineral Water,3
+2026-09-09,plain-chips,Plain Chips,2
+2026-09-09,quarter-chicken-chips,Quarter Chicken & Chips,9
+2026-09-09,samosa,Samosa,8
+2026-09-09,samosa-combo,Samosa Combo,1
+2026-09-09,soda-300ml,Soda 300ml,12
+2026-09-09,student-lunch-combo,Student Lunch Combo,6
+2026-09-09,vegetable-rice,Vegetable Rice,2
+2026-09-09,veggie-burger,Veggie Burger,2
+2026-09-10,beef-stew,Beef Stew,6
+2026-09-10,burger-combo,Burger Combo,3
+2026-09-10,cheeseburger,Cheeseburger,2
+2026-09-10,chicken-burger,Chicken Burger,7
+2026-09-10,chicken-pilau,Chicken Pilau,4
+2026-09-10,chicken-wings-6,Chicken Wings (6),0
+2026-09-10,classic-beef-burger,Classic Beef Burger,14
+2026-09-10,coleslaw,Coleslaw,2
+2026-09-10,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-10,fresh-juice,Fresh Juice,3
+2026-09-10,kachumbari,Kachumbari,3
+2026-09-10,masala-tea,Masala Tea,2
+2026-09-10,mineral-water,Mineral Water,6
+2026-09-10,plain-chips,Plain Chips,4
+2026-09-10,quarter-chicken-chips,Quarter Chicken & Chips,2
+2026-09-10,samosa,Samosa,7
+2026-09-10,samosa-combo,Samosa Combo,0
+2026-09-10,soda-300ml,Soda 300ml,6
+2026-09-10,student-lunch-combo,Student Lunch Combo,1
+2026-09-10,vegetable-rice,Vegetable Rice,1
+2026-09-10,veggie-burger,Veggie Burger,2
+2026-09-11,beef-stew,Beef Stew,3
+2026-09-11,burger-combo,Burger Combo,2
+2026-09-11,cheeseburger,Cheeseburger,4
+2026-09-11,chicken-burger,Chicken Burger,7
+2026-09-11,chicken-pilau,Chicken Pilau,3
+2026-09-11,chicken-wings-6,Chicken Wings (6),5
+2026-09-11,classic-beef-burger,Classic Beef Burger,4
+2026-09-11,coleslaw,Coleslaw,1
+2026-09-11,fish-fingers-chips,Fish Fingers & Chips,1
+2026-09-11,fresh-juice,Fresh Juice,8
+2026-09-11,kachumbari,Kachumbari,3
+2026-09-11,masala-tea,Masala Tea,3
+2026-09-11,mineral-water,Mineral Water,2
+2026-09-11,plain-chips,Plain Chips,12
+2026-09-11,quarter-chicken-chips,Quarter Chicken & Chips,10
+2026-09-11,samosa,Samosa,5
+2026-09-11,samosa-combo,Samosa Combo,1
+2026-09-11,soda-300ml,Soda 300ml,6
+2026-09-11,student-lunch-combo,Student Lunch Combo,8
+2026-09-11,vegetable-rice,Vegetable Rice,6
+2026-09-11,veggie-burger,Veggie Burger,4
+2026-09-12,beef-stew,Beef Stew,3
+2026-09-12,burger-combo,Burger Combo,1
+2026-09-12,cheeseburger,Cheeseburger,0
+2026-09-12,chicken-burger,Chicken Burger,1
+2026-09-12,chicken-pilau,Chicken Pilau,3
+2026-09-12,chicken-wings-6,Chicken Wings (6),2
+2026-09-12,classic-beef-burger,Classic Beef Burger,1
+2026-09-12,coleslaw,Coleslaw,1
+2026-09-12,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-12,fresh-juice,Fresh Juice,4
+2026-09-12,kachumbari,Kachumbari,0
+2026-09-12,masala-tea,Masala Tea,1
+2026-09-12,mineral-water,Mineral Water,0
+2026-09-12,plain-chips,Plain Chips,3
+2026-09-12,quarter-chicken-chips,Quarter Chicken & Chips,9
+2026-09-12,samosa,Samosa,2
+2026-09-12,samosa-combo,Samosa Combo,0
+2026-09-12,soda-300ml,Soda 300ml,2
+2026-09-12,student-lunch-combo,Student Lunch Combo,0
+2026-09-12,vegetable-rice,Vegetable Rice,1
+2026-09-12,veggie-burger,Veggie Burger,0
+2026-09-13,beef-stew,Beef Stew,1
+2026-09-13,burger-combo,Burger Combo,1
+2026-09-13,cheeseburger,Cheeseburger,0
+2026-09-13,chicken-burger,Chicken Burger,1
+2026-09-13,chicken-pilau,Chicken Pilau,1
+2026-09-13,chicken-wings-6,Chicken Wings (6),1
+2026-09-13,classic-beef-burger,Classic Beef Burger,5
+2026-09-13,coleslaw,Coleslaw,1
+2026-09-13,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-13,fresh-juice,Fresh Juice,2
+2026-09-13,kachumbari,Kachumbari,0
+2026-09-13,masala-tea,Masala Tea,1
+2026-09-13,mineral-water,Mineral Water,1
+2026-09-13,plain-chips,Plain Chips,4
+2026-09-13,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-09-13,samosa,Samosa,7
+2026-09-13,samosa-combo,Samosa Combo,0
+2026-09-13,soda-300ml,Soda 300ml,2
+2026-09-13,student-lunch-combo,Student Lunch Combo,5
+2026-09-13,vegetable-rice,Vegetable Rice,0
+2026-09-13,veggie-burger,Veggie Burger,2
+2026-09-14,beef-stew,Beef Stew,2
+2026-09-14,burger-combo,Burger Combo,3
+2026-09-14,cheeseburger,Cheeseburger,1
+2026-09-14,chicken-burger,Chicken Burger,7
+2026-09-14,chicken-pilau,Chicken Pilau,1
+2026-09-14,chicken-wings-6,Chicken Wings (6),5
+2026-09-14,classic-beef-burger,Classic Beef Burger,0
+2026-09-14,coleslaw,Coleslaw,0
+2026-09-14,fish-fingers-chips,Fish Fingers & Chips,1
+2026-09-14,fresh-juice,Fresh Juice,5
+2026-09-14,kachumbari,Kachumbari,0
+2026-09-14,masala-tea,Masala Tea,1
+2026-09-14,mineral-water,Mineral Water,0
+2026-09-14,plain-chips,Plain Chips,3
+2026-09-14,quarter-chicken-chips,Quarter Chicken & Chips,8
+2026-09-14,samosa,Samosa,2
+2026-09-14,samosa-combo,Samosa Combo,0
+2026-09-14,soda-300ml,Soda 300ml,1
+2026-09-14,student-lunch-combo,Student Lunch Combo,1
+2026-09-14,vegetable-rice,Vegetable Rice,6
+2026-09-14,veggie-burger,Veggie Burger,0
+2026-09-15,beef-stew,Beef Stew,1
+2026-09-15,burger-combo,Burger Combo,0
+2026-09-15,cheeseburger,Cheeseburger,6
+2026-09-15,chicken-burger,Chicken Burger,5
+2026-09-15,chicken-pilau,Chicken Pilau,4
+2026-09-15,chicken-wings-6,Chicken Wings (6),0
+2026-09-15,classic-beef-burger,Classic Beef Burger,5
+2026-09-15,coleslaw,Coleslaw,1
+2026-09-15,fish-fingers-chips,Fish Fingers & Chips,2
+2026-09-15,fresh-juice,Fresh Juice,3
+2026-09-15,kachumbari,Kachumbari,0
+2026-09-15,masala-tea,Masala Tea,3
+2026-09-15,mineral-water,Mineral Water,1
+2026-09-15,plain-chips,Plain Chips,1
+2026-09-15,quarter-chicken-chips,Quarter Chicken & Chips,8
+2026-09-15,samosa,Samosa,8
+2026-09-15,samosa-combo,Samosa Combo,5
+2026-09-15,soda-300ml,Soda 300ml,5
+2026-09-15,student-lunch-combo,Student Lunch Combo,8
+2026-09-15,vegetable-rice,Vegetable Rice,2
+2026-09-15,veggie-burger,Veggie Burger,0
+2026-09-16,beef-stew,Beef Stew,1
+2026-09-16,burger-combo,Burger Combo,0
+2026-09-16,cheeseburger,Cheeseburger,4
+2026-09-16,chicken-burger,Chicken Burger,1
+2026-09-16,chicken-pilau,Chicken Pilau,1
+2026-09-16,chicken-wings-6,Chicken Wings (6),2
+2026-09-16,classic-beef-burger,Classic Beef Burger,5
+2026-09-16,coleslaw,Coleslaw,2
+2026-09-16,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-16,fresh-juice,Fresh Juice,2
+2026-09-16,kachumbari,Kachumbari,0
+2026-09-16,masala-tea,Masala Tea,1
+2026-09-16,mineral-water,Mineral Water,1
+2026-09-16,plain-chips,Plain Chips,2
+2026-09-16,quarter-chicken-chips,Quarter Chicken & Chips,4
+2026-09-16,samosa,Samosa,0
+2026-09-16,samosa-combo,Samosa Combo,0
+2026-09-16,soda-300ml,Soda 300ml,0
+2026-09-16,student-lunch-combo,Student Lunch Combo,3
+2026-09-16,vegetable-rice,Vegetable Rice,0
+2026-09-16,veggie-burger,Veggie Burger,1
+2026-09-17,beef-stew,Beef Stew,3
+2026-09-17,burger-combo,Burger Combo,0
+2026-09-17,cheeseburger,Cheeseburger,6
+2026-09-17,chicken-burger,Chicken Burger,4
+2026-09-17,chicken-pilau,Chicken Pilau,2
+2026-09-17,chicken-wings-6,Chicken Wings (6),0
+2026-09-17,classic-beef-burger,Classic Beef Burger,6
+2026-09-17,coleslaw,Coleslaw,7
+2026-09-17,fish-fingers-chips,Fish Fingers & Chips,3
+2026-09-17,fresh-juice,Fresh Juice,5
+2026-09-17,kachumbari,Kachumbari,4
+2026-09-17,masala-tea,Masala Tea,1
+2026-09-17,mineral-water,Mineral Water,8
+2026-09-17,plain-chips,Plain Chips,7
+2026-09-17,quarter-chicken-chips,Quarter Chicken & Chips,2
+2026-09-17,samosa,Samosa,4
+2026-09-17,samosa-combo,Samosa Combo,4
+2026-09-17,soda-300ml,Soda 300ml,2
+2026-09-17,student-lunch-combo,Student Lunch Combo,5
+2026-09-17,vegetable-rice,Vegetable Rice,4
+2026-09-17,veggie-burger,Veggie Burger,9
+2026-09-18,beef-stew,Beef Stew,5
+2026-09-18,burger-combo,Burger Combo,0
+2026-09-18,cheeseburger,Cheeseburger,2
+2026-09-18,chicken-burger,Chicken Burger,4
+2026-09-18,chicken-pilau,Chicken Pilau,2
+2026-09-18,chicken-wings-6,Chicken Wings (6),6
+2026-09-18,classic-beef-burger,Classic Beef Burger,4
+2026-09-18,coleslaw,Coleslaw,0
+2026-09-18,fish-fingers-chips,Fish Fingers & Chips,4
+2026-09-18,fresh-juice,Fresh Juice,1
+2026-09-18,kachumbari,Kachumbari,1
+2026-09-18,masala-tea,Masala Tea,0
+2026-09-18,mineral-water,Mineral Water,7
+2026-09-18,plain-chips,Plain Chips,2
+2026-09-18,quarter-chicken-chips,Quarter Chicken & Chips,9
+2026-09-18,samosa,Samosa,3
+2026-09-18,samosa-combo,Samosa Combo,0
+2026-09-18,soda-300ml,Soda 300ml,2
+2026-09-18,student-lunch-combo,Student Lunch Combo,1
+2026-09-18,vegetable-rice,Vegetable Rice,2
+2026-09-18,veggie-burger,Veggie Burger,4
+2026-09-19,beef-stew,Beef Stew,2
+2026-09-19,burger-combo,Burger Combo,2
+2026-09-19,cheeseburger,Cheeseburger,1
+2026-09-19,chicken-burger,Chicken Burger,2
+2026-09-19,chicken-pilau,Chicken Pilau,2
+2026-09-19,chicken-wings-6,Chicken Wings (6),1
+2026-09-19,classic-beef-burger,Classic Beef Burger,8
+2026-09-19,coleslaw,Coleslaw,2
+2026-09-19,fish-fingers-chips,Fish Fingers & Chips,2
+2026-09-19,fresh-juice,Fresh Juice,0
+2026-09-19,kachumbari,Kachumbari,0
+2026-09-19,masala-tea,Masala Tea,1
+2026-09-19,mineral-water,Mineral Water,3
+2026-09-19,plain-chips,Plain Chips,7
+2026-09-19,quarter-chicken-chips,Quarter Chicken & Chips,9
+2026-09-19,samosa,Samosa,3
+2026-09-19,samosa-combo,Samosa Combo,1
+2026-09-19,soda-300ml,Soda 300ml,2
+2026-09-19,student-lunch-combo,Student Lunch Combo,5
+2026-09-19,vegetable-rice,Vegetable Rice,2
+2026-09-19,veggie-burger,Veggie Burger,1
+2026-09-20,beef-stew,Beef Stew,0
+2026-09-20,burger-combo,Burger Combo,3
+2026-09-20,cheeseburger,Cheeseburger,0
+2026-09-20,chicken-burger,Chicken Burger,4
+2026-09-20,chicken-pilau,Chicken Pilau,2
+2026-09-20,chicken-wings-6,Chicken Wings (6),0
+2026-09-20,classic-beef-burger,Classic Beef Burger,11
+2026-09-20,coleslaw,Coleslaw,0
+2026-09-20,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-20,fresh-juice,Fresh Juice,1
+2026-09-20,kachumbari,Kachumbari,0
+2026-09-20,masala-tea,Masala Tea,1
+2026-09-20,mineral-water,Mineral Water,0
+2026-09-20,plain-chips,Plain Chips,2
+2026-09-20,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-09-20,samosa,Samosa,3
+2026-09-20,samosa-combo,Samosa Combo,1
+2026-09-20,soda-300ml,Soda 300ml,0
+2026-09-20,student-lunch-combo,Student Lunch Combo,2
+2026-09-20,vegetable-rice,Vegetable Rice,4
+2026-09-20,veggie-burger,Veggie Burger,1
+2026-09-21,beef-stew,Beef Stew,4
+2026-09-21,burger-combo,Burger Combo,2
+2026-09-21,cheeseburger,Cheeseburger,4
+2026-09-21,chicken-burger,Chicken Burger,1
+2026-09-21,chicken-pilau,Chicken Pilau,0
+2026-09-21,chicken-wings-6,Chicken Wings (6),2
+2026-09-21,classic-beef-burger,Classic Beef Burger,7
+2026-09-21,coleslaw,Coleslaw,5
+2026-09-21,fish-fingers-chips,Fish Fingers & Chips,3
+2026-09-21,fresh-juice,Fresh Juice,7
+2026-09-21,kachumbari,Kachumbari,3
+2026-09-21,masala-tea,Masala Tea,1
+2026-09-21,mineral-water,Mineral Water,2
+2026-09-21,plain-chips,Plain Chips,5
+2026-09-21,quarter-chicken-chips,Quarter Chicken & Chips,5
+2026-09-21,samosa,Samosa,3
+2026-09-21,samosa-combo,Samosa Combo,0
+2026-09-21,soda-300ml,Soda 300ml,5
+2026-09-21,student-lunch-combo,Student Lunch Combo,4
+2026-09-21,vegetable-rice,Vegetable Rice,3
+2026-09-21,veggie-burger,Veggie Burger,1
+2026-09-22,beef-stew,Beef Stew,3
+2026-09-22,burger-combo,Burger Combo,3
+2026-09-22,cheeseburger,Cheeseburger,1
+2026-09-22,chicken-burger,Chicken Burger,5
+2026-09-22,chicken-pilau,Chicken Pilau,2
+2026-09-22,chicken-wings-6,Chicken Wings (6),2
+2026-09-22,classic-beef-burger,Classic Beef Burger,4
+2026-09-22,coleslaw,Coleslaw,0
+2026-09-22,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-22,fresh-juice,Fresh Juice,3
+2026-09-22,kachumbari,Kachumbari,0
+2026-09-22,masala-tea,Masala Tea,4
+2026-09-22,mineral-water,Mineral Water,2
+2026-09-22,plain-chips,Plain Chips,2
+2026-09-22,quarter-chicken-chips,Quarter Chicken & Chips,5
+2026-09-22,samosa,Samosa,0
+2026-09-22,samosa-combo,Samosa Combo,4
+2026-09-22,soda-300ml,Soda 300ml,3
+2026-09-22,student-lunch-combo,Student Lunch Combo,3
+2026-09-22,vegetable-rice,Vegetable Rice,6
+2026-09-22,veggie-burger,Veggie Burger,0
+2026-09-23,beef-stew,Beef Stew,2
+2026-09-23,burger-combo,Burger Combo,6
+2026-09-23,cheeseburger,Cheeseburger,1
+2026-09-23,chicken-burger,Chicken Burger,3
+2026-09-23,chicken-pilau,Chicken Pilau,7
+2026-09-23,chicken-wings-6,Chicken Wings (6),0
+2026-09-23,classic-beef-burger,Classic Beef Burger,12
+2026-09-23,coleslaw,Coleslaw,5
+2026-09-23,fish-fingers-chips,Fish Fingers & Chips,1
+2026-09-23,fresh-juice,Fresh Juice,1
+2026-09-23,kachumbari,Kachumbari,1
+2026-09-23,masala-tea,Masala Tea,1
+2026-09-23,mineral-water,Mineral Water,0
+2026-09-23,plain-chips,Plain Chips,6
+2026-09-23,quarter-chicken-chips,Quarter Chicken & Chips,10
+2026-09-23,samosa,Samosa,5
+2026-09-23,samosa-combo,Samosa Combo,3
+2026-09-23,soda-300ml,Soda 300ml,4
+2026-09-23,student-lunch-combo,Student Lunch Combo,0
+2026-09-23,vegetable-rice,Vegetable Rice,4
+2026-09-23,veggie-burger,Veggie Burger,1
+2026-09-24,beef-stew,Beef Stew,0
+2026-09-24,burger-combo,Burger Combo,2
+2026-09-24,cheeseburger,Cheeseburger,0
+2026-09-24,chicken-burger,Chicken Burger,5
+2026-09-24,chicken-pilau,Chicken Pilau,2
+2026-09-24,chicken-wings-6,Chicken Wings (6),0
+2026-09-24,classic-beef-burger,Classic Beef Burger,11
+2026-09-24,coleslaw,Coleslaw,1
+2026-09-24,fish-fingers-chips,Fish Fingers & Chips,7
+2026-09-24,fresh-juice,Fresh Juice,5
+2026-09-24,kachumbari,Kachumbari,3
+2026-09-24,masala-tea,Masala Tea,2
+2026-09-24,mineral-water,Mineral Water,16
+2026-09-24,plain-chips,Plain Chips,9
+2026-09-24,quarter-chicken-chips,Quarter Chicken & Chips,7
+2026-09-24,samosa,Samosa,4
+2026-09-24,samosa-combo,Samosa Combo,1
+2026-09-24,soda-300ml,Soda 300ml,1
+2026-09-24,student-lunch-combo,Student Lunch Combo,10
+2026-09-24,vegetable-rice,Vegetable Rice,8
+2026-09-24,veggie-burger,Veggie Burger,4
+2026-09-25,beef-stew,Beef Stew,1
+2026-09-25,burger-combo,Burger Combo,1
+2026-09-25,cheeseburger,Cheeseburger,0
+2026-09-25,chicken-burger,Chicken Burger,4
+2026-09-25,chicken-pilau,Chicken Pilau,2
+2026-09-25,chicken-wings-6,Chicken Wings (6),0
+2026-09-25,classic-beef-burger,Classic Beef Burger,12
+2026-09-25,coleslaw,Coleslaw,1
+2026-09-25,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-25,fresh-juice,Fresh Juice,1
+2026-09-25,kachumbari,Kachumbari,3
+2026-09-25,masala-tea,Masala Tea,1
+2026-09-25,mineral-water,Mineral Water,1
+2026-09-25,plain-chips,Plain Chips,5
+2026-09-25,quarter-chicken-chips,Quarter Chicken & Chips,4
+2026-09-25,samosa,Samosa,3
+2026-09-25,samosa-combo,Samosa Combo,0
+2026-09-25,soda-300ml,Soda 300ml,0
+2026-09-25,student-lunch-combo,Student Lunch Combo,3
+2026-09-25,vegetable-rice,Vegetable Rice,7
+2026-09-25,veggie-burger,Veggie Burger,5
+2026-09-26,beef-stew,Beef Stew,2
+2026-09-26,burger-combo,Burger Combo,2
+2026-09-26,cheeseburger,Cheeseburger,9
+2026-09-26,chicken-burger,Chicken Burger,1
+2026-09-26,chicken-pilau,Chicken Pilau,1
+2026-09-26,chicken-wings-6,Chicken Wings (6),1
+2026-09-26,classic-beef-burger,Classic Beef Burger,2
+2026-09-26,coleslaw,Coleslaw,2
+2026-09-26,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-26,fresh-juice,Fresh Juice,0
+2026-09-26,kachumbari,Kachumbari,0
+2026-09-26,masala-tea,Masala Tea,3
+2026-09-26,mineral-water,Mineral Water,1
+2026-09-26,plain-chips,Plain Chips,5
+2026-09-26,quarter-chicken-chips,Quarter Chicken & Chips,9
+2026-09-26,samosa,Samosa,2
+2026-09-26,samosa-combo,Samosa Combo,2
+2026-09-26,soda-300ml,Soda 300ml,4
+2026-09-26,student-lunch-combo,Student Lunch Combo,1
+2026-09-26,vegetable-rice,Vegetable Rice,1
+2026-09-26,veggie-burger,Veggie Burger,2
+2026-09-27,beef-stew,Beef Stew,4
+2026-09-27,burger-combo,Burger Combo,1
+2026-09-27,cheeseburger,Cheeseburger,1
+2026-09-27,chicken-burger,Chicken Burger,1
+2026-09-27,chicken-pilau,Chicken Pilau,2
+2026-09-27,chicken-wings-6,Chicken Wings (6),3
+2026-09-27,classic-beef-burger,Classic Beef Burger,4
+2026-09-27,coleslaw,Coleslaw,1
+2026-09-27,fish-fingers-chips,Fish Fingers & Chips,1
+2026-09-27,fresh-juice,Fresh Juice,2
+2026-09-27,kachumbari,Kachumbari,0
+2026-09-27,masala-tea,Masala Tea,2
+2026-09-27,mineral-water,Mineral Water,1
+2026-09-27,plain-chips,Plain Chips,3
+2026-09-27,quarter-chicken-chips,Quarter Chicken & Chips,0
+2026-09-27,samosa,Samosa,4
+2026-09-27,samosa-combo,Samosa Combo,1
+2026-09-27,soda-300ml,Soda 300ml,1
+2026-09-27,student-lunch-combo,Student Lunch Combo,7
+2026-09-27,vegetable-rice,Vegetable Rice,6
+2026-09-27,veggie-burger,Veggie Burger,2
+2026-09-28,beef-stew,Beef Stew,2
+2026-09-28,burger-combo,Burger Combo,0
+2026-09-28,cheeseburger,Cheeseburger,0
+2026-09-28,chicken-burger,Chicken Burger,7
+2026-09-28,chicken-pilau,Chicken Pilau,4
+2026-09-28,chicken-wings-6,Chicken Wings (6),3
+2026-09-28,classic-beef-burger,Classic Beef Burger,6
+2026-09-28,coleslaw,Coleslaw,0
+2026-09-28,fish-fingers-chips,Fish Fingers & Chips,3
+2026-09-28,fresh-juice,Fresh Juice,1
+2026-09-28,kachumbari,Kachumbari,10
+2026-09-28,masala-tea,Masala Tea,3
+2026-09-28,mineral-water,Mineral Water,0
+2026-09-28,plain-chips,Plain Chips,1
+2026-09-28,quarter-chicken-chips,Quarter Chicken & Chips,6
+2026-09-28,samosa,Samosa,0
+2026-09-28,samosa-combo,Samosa Combo,0
+2026-09-28,soda-300ml,Soda 300ml,1
+2026-09-28,student-lunch-combo,Student Lunch Combo,1
+2026-09-28,vegetable-rice,Vegetable Rice,7
+2026-09-28,veggie-burger,Veggie Burger,6
+2026-09-29,beef-stew,Beef Stew,3
+2026-09-29,burger-combo,Burger Combo,1
+2026-09-29,cheeseburger,Cheeseburger,1
+2026-09-29,chicken-burger,Chicken Burger,8
+2026-09-29,chicken-pilau,Chicken Pilau,9
+2026-09-29,chicken-wings-6,Chicken Wings (6),1
+2026-09-29,classic-beef-burger,Classic Beef Burger,9
+2026-09-29,coleslaw,Coleslaw,4
+2026-09-29,fish-fingers-chips,Fish Fingers & Chips,1
+2026-09-29,fresh-juice,Fresh Juice,4
+2026-09-29,kachumbari,Kachumbari,2
+2026-09-29,masala-tea,Masala Tea,4
+2026-09-29,mineral-water,Mineral Water,0
+2026-09-29,plain-chips,Plain Chips,1
+2026-09-29,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-09-29,samosa,Samosa,3
+2026-09-29,samosa-combo,Samosa Combo,0
+2026-09-29,soda-300ml,Soda 300ml,2
+2026-09-29,student-lunch-combo,Student Lunch Combo,4
+2026-09-29,vegetable-rice,Vegetable Rice,2
+2026-09-29,veggie-burger,Veggie Burger,1
+2026-09-30,beef-stew,Beef Stew,2
+2026-09-30,burger-combo,Burger Combo,2
+2026-09-30,cheeseburger,Cheeseburger,5
+2026-09-30,chicken-burger,Chicken Burger,7
+2026-09-30,chicken-pilau,Chicken Pilau,1
+2026-09-30,chicken-wings-6,Chicken Wings (6),2
+2026-09-30,classic-beef-burger,Classic Beef Burger,10
+2026-09-30,coleslaw,Coleslaw,1
+2026-09-30,fish-fingers-chips,Fish Fingers & Chips,0
+2026-09-30,fresh-juice,Fresh Juice,2
+2026-09-30,kachumbari,Kachumbari,0
+2026-09-30,masala-tea,Masala Tea,1
+2026-09-30,mineral-water,Mineral Water,0
+2026-09-30,plain-chips,Plain Chips,3
+2026-09-30,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-09-30,samosa,Samosa,3
+2026-09-30,samosa-combo,Samosa Combo,0
+2026-09-30,soda-300ml,Soda 300ml,0
+2026-09-30,student-lunch-combo,Student Lunch Combo,8
+2026-09-30,vegetable-rice,Vegetable Rice,1
+2026-09-30,veggie-burger,Veggie Burger,0
+2026-10-01,beef-stew,Beef Stew,7
+2026-10-01,burger-combo,Burger Combo,4
+2026-10-01,cheeseburger,Cheeseburger,1
+2026-10-01,chicken-burger,Chicken Burger,6
+2026-10-01,chicken-pilau,Chicken Pilau,3
+2026-10-01,chicken-wings-6,Chicken Wings (6),9
+2026-10-01,classic-beef-burger,Classic Beef Burger,6
+2026-10-01,coleslaw,Coleslaw,1
+2026-10-01,fish-fingers-chips,Fish Fingers & Chips,1
+2026-10-01,fresh-juice,Fresh Juice,3
+2026-10-01,kachumbari,Kachumbari,0
+2026-10-01,masala-tea,Masala Tea,1
+2026-10-01,mineral-water,Mineral Water,1
+2026-10-01,plain-chips,Plain Chips,5
+2026-10-01,quarter-chicken-chips,Quarter Chicken & Chips,6
+2026-10-01,samosa,Samosa,1
+2026-10-01,samosa-combo,Samosa Combo,3
+2026-10-01,soda-300ml,Soda 300ml,0
+2026-10-01,student-lunch-combo,Student Lunch Combo,8
+2026-10-01,vegetable-rice,Vegetable Rice,2
+2026-10-01,veggie-burger,Veggie Burger,2
+2026-10-02,beef-stew,Beef Stew,8
+2026-10-02,burger-combo,Burger Combo,1
+2026-10-02,cheeseburger,Cheeseburger,0
+2026-10-02,chicken-burger,Chicken Burger,6
+2026-10-02,chicken-pilau,Chicken Pilau,7
+2026-10-02,chicken-wings-6,Chicken Wings (6),4
+2026-10-02,classic-beef-burger,Classic Beef Burger,15
+2026-10-02,coleslaw,Coleslaw,3
+2026-10-02,fish-fingers-chips,Fish Fingers & Chips,3
+2026-10-02,fresh-juice,Fresh Juice,5
+2026-10-02,kachumbari,Kachumbari,2
+2026-10-02,masala-tea,Masala Tea,4
+2026-10-02,mineral-water,Mineral Water,2
+2026-10-02,plain-chips,Plain Chips,3
+2026-10-02,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-10-02,samosa,Samosa,9
+2026-10-02,samosa-combo,Samosa Combo,5
+2026-10-02,soda-300ml,Soda 300ml,5
+2026-10-02,student-lunch-combo,Student Lunch Combo,13
+2026-10-02,vegetable-rice,Vegetable Rice,0
+2026-10-02,veggie-burger,Veggie Burger,3
+2026-10-03,beef-stew,Beef Stew,1
+2026-10-03,burger-combo,Burger Combo,3
+2026-10-03,cheeseburger,Cheeseburger,1
+2026-10-03,chicken-burger,Chicken Burger,2
+2026-10-03,chicken-pilau,Chicken Pilau,2
+2026-10-03,chicken-wings-6,Chicken Wings (6),1
+2026-10-03,classic-beef-burger,Classic Beef Burger,4
+2026-10-03,coleslaw,Coleslaw,1
+2026-10-03,fish-fingers-chips,Fish Fingers & Chips,1
+2026-10-03,fresh-juice,Fresh Juice,1
+2026-10-03,kachumbari,Kachumbari,2
+2026-10-03,masala-tea,Masala Tea,1
+2026-10-03,mineral-water,Mineral Water,1
+2026-10-03,plain-chips,Plain Chips,4
+2026-10-03,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-03,samosa,Samosa,8
+2026-10-03,samosa-combo,Samosa Combo,0
+2026-10-03,soda-300ml,Soda 300ml,0
+2026-10-03,student-lunch-combo,Student Lunch Combo,4
+2026-10-03,vegetable-rice,Vegetable Rice,0
+2026-10-03,veggie-burger,Veggie Burger,1
+2026-10-04,beef-stew,Beef Stew,0
+2026-10-04,burger-combo,Burger Combo,3
+2026-10-04,cheeseburger,Cheeseburger,2
+2026-10-04,chicken-burger,Chicken Burger,3
+2026-10-04,chicken-pilau,Chicken Pilau,2
+2026-10-04,chicken-wings-6,Chicken Wings (6),0
+2026-10-04,classic-beef-burger,Classic Beef Burger,4
+2026-10-04,coleslaw,Coleslaw,0
+2026-10-04,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-04,fresh-juice,Fresh Juice,0
+2026-10-04,kachumbari,Kachumbari,3
+2026-10-04,masala-tea,Masala Tea,0
+2026-10-04,mineral-water,Mineral Water,0
+2026-10-04,plain-chips,Plain Chips,6
+2026-10-04,quarter-chicken-chips,Quarter Chicken & Chips,2
+2026-10-04,samosa,Samosa,4
+2026-10-04,samosa-combo,Samosa Combo,0
+2026-10-04,soda-300ml,Soda 300ml,2
+2026-10-04,student-lunch-combo,Student Lunch Combo,2
+2026-10-04,vegetable-rice,Vegetable Rice,0
+2026-10-04,veggie-burger,Veggie Burger,0
+2026-10-05,beef-stew,Beef Stew,9
+2026-10-05,burger-combo,Burger Combo,4
+2026-10-05,cheeseburger,Cheeseburger,0
+2026-10-05,chicken-burger,Chicken Burger,8
+2026-10-05,chicken-pilau,Chicken Pilau,2
+2026-10-05,chicken-wings-6,Chicken Wings (6),5
+2026-10-05,classic-beef-burger,Classic Beef Burger,10
+2026-10-05,coleslaw,Coleslaw,4
+2026-10-05,fish-fingers-chips,Fish Fingers & Chips,3
+2026-10-05,fresh-juice,Fresh Juice,4
+2026-10-05,kachumbari,Kachumbari,5
+2026-10-05,masala-tea,Masala Tea,8
+2026-10-05,mineral-water,Mineral Water,3
+2026-10-05,plain-chips,Plain Chips,3
+2026-10-05,quarter-chicken-chips,Quarter Chicken & Chips,10
+2026-10-05,samosa,Samosa,7
+2026-10-05,samosa-combo,Samosa Combo,1
+2026-10-05,soda-300ml,Soda 300ml,1
+2026-10-05,student-lunch-combo,Student Lunch Combo,4
+2026-10-05,vegetable-rice,Vegetable Rice,5
+2026-10-05,veggie-burger,Veggie Burger,1
+2026-10-06,beef-stew,Beef Stew,10
+2026-10-06,burger-combo,Burger Combo,1
+2026-10-06,cheeseburger,Cheeseburger,0
+2026-10-06,chicken-burger,Chicken Burger,3
+2026-10-06,chicken-pilau,Chicken Pilau,3
+2026-10-06,chicken-wings-6,Chicken Wings (6),5
+2026-10-06,classic-beef-burger,Classic Beef Burger,5
+2026-10-06,coleslaw,Coleslaw,3
+2026-10-06,fish-fingers-chips,Fish Fingers & Chips,1
+2026-10-06,fresh-juice,Fresh Juice,4
+2026-10-06,kachumbari,Kachumbari,2
+2026-10-06,masala-tea,Masala Tea,3
+2026-10-06,mineral-water,Mineral Water,4
+2026-10-06,plain-chips,Plain Chips,4
+2026-10-06,quarter-chicken-chips,Quarter Chicken & Chips,5
+2026-10-06,samosa,Samosa,6
+2026-10-06,samosa-combo,Samosa Combo,1
+2026-10-06,soda-300ml,Soda 300ml,0
+2026-10-06,student-lunch-combo,Student Lunch Combo,3
+2026-10-06,vegetable-rice,Vegetable Rice,3
+2026-10-06,veggie-burger,Veggie Burger,1
+2026-10-07,beef-stew,Beef Stew,1
+2026-10-07,burger-combo,Burger Combo,0
+2026-10-07,cheeseburger,Cheeseburger,2
+2026-10-07,chicken-burger,Chicken Burger,6
+2026-10-07,chicken-pilau,Chicken Pilau,4
+2026-10-07,chicken-wings-6,Chicken Wings (6),1
+2026-10-07,classic-beef-burger,Classic Beef Burger,2
+2026-10-07,coleslaw,Coleslaw,0
+2026-10-07,fish-fingers-chips,Fish Fingers & Chips,5
+2026-10-07,fresh-juice,Fresh Juice,3
+2026-10-07,kachumbari,Kachumbari,2
+2026-10-07,masala-tea,Masala Tea,1
+2026-10-07,mineral-water,Mineral Water,0
+2026-10-07,plain-chips,Plain Chips,0
+2026-10-07,quarter-chicken-chips,Quarter Chicken & Chips,2
+2026-10-07,samosa,Samosa,1
+2026-10-07,samosa-combo,Samosa Combo,0
+2026-10-07,soda-300ml,Soda 300ml,2
+2026-10-07,student-lunch-combo,Student Lunch Combo,7
+2026-10-07,vegetable-rice,Vegetable Rice,4
+2026-10-07,veggie-burger,Veggie Burger,0
+2026-10-08,beef-stew,Beef Stew,3
+2026-10-08,burger-combo,Burger Combo,4
+2026-10-08,cheeseburger,Cheeseburger,1
+2026-10-08,chicken-burger,Chicken Burger,6
+2026-10-08,chicken-pilau,Chicken Pilau,4
+2026-10-08,chicken-wings-6,Chicken Wings (6),1
+2026-10-08,classic-beef-burger,Classic Beef Burger,8
+2026-10-08,coleslaw,Coleslaw,6
+2026-10-08,fish-fingers-chips,Fish Fingers & Chips,3
+2026-10-08,fresh-juice,Fresh Juice,4
+2026-10-08,kachumbari,Kachumbari,3
+2026-10-08,masala-tea,Masala Tea,8
+2026-10-08,mineral-water,Mineral Water,5
+2026-10-08,plain-chips,Plain Chips,6
+2026-10-08,quarter-chicken-chips,Quarter Chicken & Chips,7
+2026-10-08,samosa,Samosa,2
+2026-10-08,samosa-combo,Samosa Combo,3
+2026-10-08,soda-300ml,Soda 300ml,1
+2026-10-08,student-lunch-combo,Student Lunch Combo,5
+2026-10-08,vegetable-rice,Vegetable Rice,1
+2026-10-08,veggie-burger,Veggie Burger,1
+2026-10-09,beef-stew,Beef Stew,7
+2026-10-09,burger-combo,Burger Combo,1
+2026-10-09,cheeseburger,Cheeseburger,3
+2026-10-09,chicken-burger,Chicken Burger,2
+2026-10-09,chicken-pilau,Chicken Pilau,10
+2026-10-09,chicken-wings-6,Chicken Wings (6),1
+2026-10-09,classic-beef-burger,Classic Beef Burger,7
+2026-10-09,coleslaw,Coleslaw,0
+2026-10-09,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-09,fresh-juice,Fresh Juice,4
+2026-10-09,kachumbari,Kachumbari,3
+2026-10-09,masala-tea,Masala Tea,0
+2026-10-09,mineral-water,Mineral Water,2
+2026-10-09,plain-chips,Plain Chips,2
+2026-10-09,quarter-chicken-chips,Quarter Chicken & Chips,5
+2026-10-09,samosa,Samosa,1
+2026-10-09,samosa-combo,Samosa Combo,1
+2026-10-09,soda-300ml,Soda 300ml,1
+2026-10-09,student-lunch-combo,Student Lunch Combo,0
+2026-10-09,vegetable-rice,Vegetable Rice,5
+2026-10-09,veggie-burger,Veggie Burger,5
+2026-10-10,beef-stew,Beef Stew,3
+2026-10-10,burger-combo,Burger Combo,4
+2026-10-10,cheeseburger,Cheeseburger,0
+2026-10-10,chicken-burger,Chicken Burger,4
+2026-10-10,chicken-pilau,Chicken Pilau,2
+2026-10-10,chicken-wings-6,Chicken Wings (6),4
+2026-10-10,classic-beef-burger,Classic Beef Burger,4
+2026-10-10,coleslaw,Coleslaw,1
+2026-10-10,fish-fingers-chips,Fish Fingers & Chips,3
+2026-10-10,fresh-juice,Fresh Juice,6
+2026-10-10,kachumbari,Kachumbari,1
+2026-10-10,masala-tea,Masala Tea,0
+2026-10-10,mineral-water,Mineral Water,2
+2026-10-10,plain-chips,Plain Chips,7
+2026-10-10,quarter-chicken-chips,Quarter Chicken & Chips,9
+2026-10-10,samosa,Samosa,6
+2026-10-10,samosa-combo,Samosa Combo,0
+2026-10-10,soda-300ml,Soda 300ml,1
+2026-10-10,student-lunch-combo,Student Lunch Combo,8
+2026-10-10,vegetable-rice,Vegetable Rice,0
+2026-10-10,veggie-burger,Veggie Burger,3
+2026-10-11,beef-stew,Beef Stew,0
+2026-10-11,burger-combo,Burger Combo,0
+2026-10-11,cheeseburger,Cheeseburger,2
+2026-10-11,chicken-burger,Chicken Burger,3
+2026-10-11,chicken-pilau,Chicken Pilau,4
+2026-10-11,chicken-wings-6,Chicken Wings (6),3
+2026-10-11,classic-beef-burger,Classic Beef Burger,1
+2026-10-11,coleslaw,Coleslaw,0
+2026-10-11,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-11,fresh-juice,Fresh Juice,1
+2026-10-11,kachumbari,Kachumbari,0
+2026-10-11,masala-tea,Masala Tea,6
+2026-10-11,mineral-water,Mineral Water,3
+2026-10-11,plain-chips,Plain Chips,3
+2026-10-11,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-11,samosa,Samosa,1
+2026-10-11,samosa-combo,Samosa Combo,0
+2026-10-11,soda-300ml,Soda 300ml,0
+2026-10-11,student-lunch-combo,Student Lunch Combo,6
+2026-10-11,vegetable-rice,Vegetable Rice,0
+2026-10-11,veggie-burger,Veggie Burger,0
+2026-10-12,beef-stew,Beef Stew,7
+2026-10-12,burger-combo,Burger Combo,1
+2026-10-12,cheeseburger,Cheeseburger,0
+2026-10-12,chicken-burger,Chicken Burger,2
+2026-10-12,chicken-pilau,Chicken Pilau,11
+2026-10-12,chicken-wings-6,Chicken Wings (6),1
+2026-10-12,classic-beef-burger,Classic Beef Burger,3
+2026-10-12,coleslaw,Coleslaw,0
+2026-10-12,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-12,fresh-juice,Fresh Juice,0
+2026-10-12,kachumbari,Kachumbari,0
+2026-10-12,masala-tea,Masala Tea,0
+2026-10-12,mineral-water,Mineral Water,3
+2026-10-12,plain-chips,Plain Chips,8
+2026-10-12,quarter-chicken-chips,Quarter Chicken & Chips,4
+2026-10-12,samosa,Samosa,4
+2026-10-12,samosa-combo,Samosa Combo,1
+2026-10-12,soda-300ml,Soda 300ml,1
+2026-10-12,student-lunch-combo,Student Lunch Combo,1
+2026-10-12,vegetable-rice,Vegetable Rice,4
+2026-10-12,veggie-burger,Veggie Burger,0
+2026-10-13,beef-stew,Beef Stew,4
+2026-10-13,burger-combo,Burger Combo,1
+2026-10-13,cheeseburger,Cheeseburger,0
+2026-10-13,chicken-burger,Chicken Burger,1
+2026-10-13,chicken-pilau,Chicken Pilau,10
+2026-10-13,chicken-wings-6,Chicken Wings (6),1
+2026-10-13,classic-beef-burger,Classic Beef Burger,1
+2026-10-13,coleslaw,Coleslaw,1
+2026-10-13,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-13,fresh-juice,Fresh Juice,0
+2026-10-13,kachumbari,Kachumbari,0
+2026-10-13,masala-tea,Masala Tea,2
+2026-10-13,mineral-water,Mineral Water,0
+2026-10-13,plain-chips,Plain Chips,3
+2026-10-13,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-13,samosa,Samosa,9
+2026-10-13,samosa-combo,Samosa Combo,0
+2026-10-13,soda-300ml,Soda 300ml,2
+2026-10-13,student-lunch-combo,Student Lunch Combo,1
+2026-10-13,vegetable-rice,Vegetable Rice,4
+2026-10-13,veggie-burger,Veggie Burger,1
+2026-10-14,beef-stew,Beef Stew,7
+2026-10-14,burger-combo,Burger Combo,0
+2026-10-14,cheeseburger,Cheeseburger,0
+2026-10-14,chicken-burger,Chicken Burger,2
+2026-10-14,chicken-pilau,Chicken Pilau,10
+2026-10-14,chicken-wings-6,Chicken Wings (6),1
+2026-10-14,classic-beef-burger,Classic Beef Burger,0
+2026-10-14,coleslaw,Coleslaw,0
+2026-10-14,fish-fingers-chips,Fish Fingers & Chips,5
+2026-10-14,fresh-juice,Fresh Juice,0
+2026-10-14,kachumbari,Kachumbari,1
+2026-10-14,masala-tea,Masala Tea,1
+2026-10-14,mineral-water,Mineral Water,2
+2026-10-14,plain-chips,Plain Chips,0
+2026-10-14,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-14,samosa,Samosa,9
+2026-10-14,samosa-combo,Samosa Combo,1
+2026-10-14,soda-300ml,Soda 300ml,0
+2026-10-14,student-lunch-combo,Student Lunch Combo,2
+2026-10-14,vegetable-rice,Vegetable Rice,11
+2026-10-14,veggie-burger,Veggie Burger,2
+2026-10-15,beef-stew,Beef Stew,12
+2026-10-15,burger-combo,Burger Combo,2
+2026-10-15,cheeseburger,Cheeseburger,0
+2026-10-15,chicken-burger,Chicken Burger,1
+2026-10-15,chicken-pilau,Chicken Pilau,13
+2026-10-15,chicken-wings-6,Chicken Wings (6),1
+2026-10-15,classic-beef-burger,Classic Beef Burger,1
+2026-10-15,coleslaw,Coleslaw,1
+2026-10-15,fish-fingers-chips,Fish Fingers & Chips,1
+2026-10-15,fresh-juice,Fresh Juice,0
+2026-10-15,kachumbari,Kachumbari,1
+2026-10-15,masala-tea,Masala Tea,2
+2026-10-15,mineral-water,Mineral Water,0
+2026-10-15,plain-chips,Plain Chips,2
+2026-10-15,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-15,samosa,Samosa,6
+2026-10-15,samosa-combo,Samosa Combo,2
+2026-10-15,soda-300ml,Soda 300ml,4
+2026-10-15,student-lunch-combo,Student Lunch Combo,3
+2026-10-15,vegetable-rice,Vegetable Rice,5
+2026-10-15,veggie-burger,Veggie Burger,3
+2026-10-16,beef-stew,Beef Stew,11
+2026-10-16,burger-combo,Burger Combo,0
+2026-10-16,cheeseburger,Cheeseburger,2
+2026-10-16,chicken-burger,Chicken Burger,2
+2026-10-16,chicken-pilau,Chicken Pilau,12
+2026-10-16,chicken-wings-6,Chicken Wings (6),2
+2026-10-16,classic-beef-burger,Classic Beef Burger,3
+2026-10-16,coleslaw,Coleslaw,2
+2026-10-16,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-16,fresh-juice,Fresh Juice,0
+2026-10-16,kachumbari,Kachumbari,7
+2026-10-16,masala-tea,Masala Tea,1
+2026-10-16,mineral-water,Mineral Water,1
+2026-10-16,plain-chips,Plain Chips,1
+2026-10-16,quarter-chicken-chips,Quarter Chicken & Chips,2
+2026-10-16,samosa,Samosa,8
+2026-10-16,samosa-combo,Samosa Combo,2
+2026-10-16,soda-300ml,Soda 300ml,4
+2026-10-16,student-lunch-combo,Student Lunch Combo,0
+2026-10-16,vegetable-rice,Vegetable Rice,2
+2026-10-16,veggie-burger,Veggie Burger,0
+2026-10-17,beef-stew,Beef Stew,12
+2026-10-17,burger-combo,Burger Combo,1
+2026-10-17,cheeseburger,Cheeseburger,0
+2026-10-17,chicken-burger,Chicken Burger,0
+2026-10-17,chicken-pilau,Chicken Pilau,13
+2026-10-17,chicken-wings-6,Chicken Wings (6),1
+2026-10-17,classic-beef-burger,Classic Beef Burger,4
+2026-10-17,coleslaw,Coleslaw,7
+2026-10-17,fish-fingers-chips,Fish Fingers & Chips,1
+2026-10-17,fresh-juice,Fresh Juice,0
+2026-10-17,kachumbari,Kachumbari,6
+2026-10-17,masala-tea,Masala Tea,0
+2026-10-17,mineral-water,Mineral Water,1
+2026-10-17,plain-chips,Plain Chips,6
+2026-10-17,quarter-chicken-chips,Quarter Chicken & Chips,7
+2026-10-17,samosa,Samosa,7
+2026-10-17,samosa-combo,Samosa Combo,3
+2026-10-17,soda-300ml,Soda 300ml,0
+2026-10-17,student-lunch-combo,Student Lunch Combo,3
+2026-10-17,vegetable-rice,Vegetable Rice,9
+2026-10-17,veggie-burger,Veggie Burger,1
+2026-10-18,beef-stew,Beef Stew,9
+2026-10-18,burger-combo,Burger Combo,0
+2026-10-18,cheeseburger,Cheeseburger,1
+2026-10-18,chicken-burger,Chicken Burger,4
+2026-10-18,chicken-pilau,Chicken Pilau,12
+2026-10-18,chicken-wings-6,Chicken Wings (6),1
+2026-10-18,classic-beef-burger,Classic Beef Burger,0
+2026-10-18,coleslaw,Coleslaw,0
+2026-10-18,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-18,fresh-juice,Fresh Juice,0
+2026-10-18,kachumbari,Kachumbari,2
+2026-10-18,masala-tea,Masala Tea,1
+2026-10-18,mineral-water,Mineral Water,3
+2026-10-18,plain-chips,Plain Chips,2
+2026-10-18,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-10-18,samosa,Samosa,8
+2026-10-18,samosa-combo,Samosa Combo,0
+2026-10-18,soda-300ml,Soda 300ml,1
+2026-10-18,student-lunch-combo,Student Lunch Combo,4
+2026-10-18,vegetable-rice,Vegetable Rice,10
+2026-10-18,veggie-burger,Veggie Burger,0
+2026-10-19,beef-stew,Beef Stew,7
+2026-10-19,burger-combo,Burger Combo,0
+2026-10-19,cheeseburger,Cheeseburger,0
+2026-10-19,chicken-burger,Chicken Burger,6
+2026-10-19,chicken-pilau,Chicken Pilau,4
+2026-10-19,chicken-wings-6,Chicken Wings (6),1
+2026-10-19,classic-beef-burger,Classic Beef Burger,1
+2026-10-19,coleslaw,Coleslaw,6
+2026-10-19,fish-fingers-chips,Fish Fingers & Chips,1
+2026-10-19,fresh-juice,Fresh Juice,0
+2026-10-19,kachumbari,Kachumbari,5
+2026-10-19,masala-tea,Masala Tea,2
+2026-10-19,mineral-water,Mineral Water,1
+2026-10-19,plain-chips,Plain Chips,5
+2026-10-19,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-19,samosa,Samosa,5
+2026-10-19,samosa-combo,Samosa Combo,0
+2026-10-19,soda-300ml,Soda 300ml,1
+2026-10-19,student-lunch-combo,Student Lunch Combo,2
+2026-10-19,vegetable-rice,Vegetable Rice,6
+2026-10-19,veggie-burger,Veggie Burger,3
+2026-10-20,beef-stew,Beef Stew,6
+2026-10-20,burger-combo,Burger Combo,0
+2026-10-20,cheeseburger,Cheeseburger,0
+2026-10-20,chicken-burger,Chicken Burger,4
+2026-10-20,chicken-pilau,Chicken Pilau,15
+2026-10-20,chicken-wings-6,Chicken Wings (6),0
+2026-10-20,classic-beef-burger,Classic Beef Burger,2
+2026-10-20,coleslaw,Coleslaw,1
+2026-10-20,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-20,fresh-juice,Fresh Juice,0
+2026-10-20,kachumbari,Kachumbari,1
+2026-10-20,masala-tea,Masala Tea,0
+2026-10-20,mineral-water,Mineral Water,0
+2026-10-20,plain-chips,Plain Chips,2
+2026-10-20,quarter-chicken-chips,Quarter Chicken & Chips,9
+2026-10-20,samosa,Samosa,10
+2026-10-20,samosa-combo,Samosa Combo,0
+2026-10-20,soda-300ml,Soda 300ml,0
+2026-10-20,student-lunch-combo,Student Lunch Combo,0
+2026-10-20,vegetable-rice,Vegetable Rice,13
+2026-10-20,veggie-burger,Veggie Burger,0
+2026-10-21,beef-stew,Beef Stew,8
+2026-10-21,burger-combo,Burger Combo,3
+2026-10-21,cheeseburger,Cheeseburger,3
+2026-10-21,chicken-burger,Chicken Burger,7
+2026-10-21,chicken-pilau,Chicken Pilau,11
+2026-10-21,chicken-wings-6,Chicken Wings (6),2
+2026-10-21,classic-beef-burger,Classic Beef Burger,9
+2026-10-21,coleslaw,Coleslaw,4
+2026-10-21,fish-fingers-chips,Fish Fingers & Chips,2
+2026-10-21,fresh-juice,Fresh Juice,0
+2026-10-21,kachumbari,Kachumbari,1
+2026-10-21,masala-tea,Masala Tea,1
+2026-10-21,mineral-water,Mineral Water,0
+2026-10-21,plain-chips,Plain Chips,3
+2026-10-21,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-21,samosa,Samosa,8
+2026-10-21,samosa-combo,Samosa Combo,2
+2026-10-21,soda-300ml,Soda 300ml,3
+2026-10-21,student-lunch-combo,Student Lunch Combo,2
+2026-10-21,vegetable-rice,Vegetable Rice,6
+2026-10-21,veggie-burger,Veggie Burger,6
+2026-10-22,beef-stew,Beef Stew,6
+2026-10-22,burger-combo,Burger Combo,1
+2026-10-22,cheeseburger,Cheeseburger,0
+2026-10-22,chicken-burger,Chicken Burger,1
+2026-10-22,chicken-pilau,Chicken Pilau,4
+2026-10-22,chicken-wings-6,Chicken Wings (6),3
+2026-10-22,classic-beef-burger,Classic Beef Burger,1
+2026-10-22,coleslaw,Coleslaw,4
+2026-10-22,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-22,fresh-juice,Fresh Juice,7
+2026-10-22,kachumbari,Kachumbari,5
+2026-10-22,masala-tea,Masala Tea,0
+2026-10-22,mineral-water,Mineral Water,1
+2026-10-22,plain-chips,Plain Chips,4
+2026-10-22,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-22,samosa,Samosa,7
+2026-10-22,samosa-combo,Samosa Combo,0
+2026-10-22,soda-300ml,Soda 300ml,1
+2026-10-22,student-lunch-combo,Student Lunch Combo,6
+2026-10-22,vegetable-rice,Vegetable Rice,5
+2026-10-22,veggie-burger,Veggie Burger,0
+2026-10-23,beef-stew,Beef Stew,5
+2026-10-23,burger-combo,Burger Combo,2
+2026-10-23,cheeseburger,Cheeseburger,0
+2026-10-23,chicken-burger,Chicken Burger,1
+2026-10-23,chicken-pilau,Chicken Pilau,16
+2026-10-23,chicken-wings-6,Chicken Wings (6),0
+2026-10-23,classic-beef-burger,Classic Beef Burger,3
+2026-10-23,coleslaw,Coleslaw,1
+2026-10-23,fish-fingers-chips,Fish Fingers & Chips,1
+2026-10-23,fresh-juice,Fresh Juice,5
+2026-10-23,kachumbari,Kachumbari,2
+2026-10-23,masala-tea,Masala Tea,3
+2026-10-23,mineral-water,Mineral Water,2
+2026-10-23,plain-chips,Plain Chips,2
+2026-10-23,quarter-chicken-chips,Quarter Chicken & Chips,1
+2026-10-23,samosa,Samosa,6
+2026-10-23,samosa-combo,Samosa Combo,4
+2026-10-23,soda-300ml,Soda 300ml,0
+2026-10-23,student-lunch-combo,Student Lunch Combo,9
+2026-10-23,vegetable-rice,Vegetable Rice,7
+2026-10-23,veggie-burger,Veggie Burger,0
+2026-10-24,beef-stew,Beef Stew,19
+2026-10-24,burger-combo,Burger Combo,2
+2026-10-24,cheeseburger,Cheeseburger,1
+2026-10-24,chicken-burger,Chicken Burger,0
+2026-10-24,chicken-pilau,Chicken Pilau,17
+2026-10-24,chicken-wings-6,Chicken Wings (6),0
+2026-10-24,classic-beef-burger,Classic Beef Burger,1
+2026-10-24,coleslaw,Coleslaw,0
+2026-10-24,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-24,fresh-juice,Fresh Juice,4
+2026-10-24,kachumbari,Kachumbari,2
+2026-10-24,masala-tea,Masala Tea,2
+2026-10-24,mineral-water,Mineral Water,1
+2026-10-24,plain-chips,Plain Chips,3
+2026-10-24,quarter-chicken-chips,Quarter Chicken & Chips,0
+2026-10-24,samosa,Samosa,16
+2026-10-24,samosa-combo,Samosa Combo,2
+2026-10-24,soda-300ml,Soda 300ml,2
+2026-10-24,student-lunch-combo,Student Lunch Combo,6
+2026-10-24,vegetable-rice,Vegetable Rice,12
+2026-10-24,veggie-burger,Veggie Burger,0
+2026-10-25,beef-stew,Beef Stew,5
+2026-10-25,burger-combo,Burger Combo,0
+2026-10-25,cheeseburger,Cheeseburger,0
+2026-10-25,chicken-burger,Chicken Burger,0
+2026-10-25,chicken-pilau,Chicken Pilau,9
+2026-10-25,chicken-wings-6,Chicken Wings (6),1
+2026-10-25,classic-beef-burger,Classic Beef Burger,0
+2026-10-25,coleslaw,Coleslaw,1
+2026-10-25,fish-fingers-chips,Fish Fingers & Chips,0
+2026-10-25,fresh-juice,Fresh Juice,10
+2026-10-25,kachumbari,Kachumbari,0
+2026-10-25,masala-tea,Masala Tea,1
+2026-10-25,mineral-water,Mineral Water,1
+2026-10-25,plain-chips,Plain Chips,0
+2026-10-25,quarter-chicken-chips,Quarter Chicken & Chips,3
+2026-10-25,samosa,Samosa,8
+2026-10-25,samosa-combo,Samosa Combo,0
+2026-10-25,soda-300ml,Soda 300ml,1
+2026-10-25,student-lunch-combo,Student Lunch Combo,0
+2026-10-25,vegetable-rice,Vegetable Rice,8
+2026-10-25,veggie-burger,Veggie Burger,1

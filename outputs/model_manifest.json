@@ -1,0 +1,57 @@
+{
+  "model_id": "rf_cb_v1",
+  "approach": "Random Forest regression",
+  "target": "portions of one dish sold on the next day",
+  "inputs": [
+    "dish=beef-stew",
+    "dish=burger-combo",
+    "dish=cheeseburger",
+    "dish=chicken-burger",
+    "dish=chicken-pilau",
+    "dish=chicken-wings-6",
+    "dish=classic-beef-burger",
+    "dish=coleslaw",
+    "dish=fish-fingers-chips",
+    "dish=fresh-juice",
+    "dish=kachumbari",
+    "dish=masala-tea",
+    "dish=mineral-water",
+    "dish=plain-chips",
+    "dish=quarter-chicken-chips",
+    "dish=samosa",
+    "dish=samosa-combo",
+    "dish=soda-300ml",
+    "dish=student-lunch-combo",
+    "dish=vegetable-rice",
+    "dish=veggie-burger",
+    "lag_1",
+    "lag_7",
+    "rolling_mean_7",
+    "restaurant_total_lag_1",
+    "day_of_week",
+    "is_weekend"
+  ],
+  "hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 8,
+    "min_samples_leaf": 5,
+    "bootstrap": true,
+    "random_state": 2026
+  },
+  "training_rows": 1113,
+  "training_target_days": [
+    "2026-09-03",
+    "2026-10-25"
+  ],
+  "data_sha256": "25b257bb982d5175b3203d1e7bc21af905a253c40de616fa2e521905bd5929a7",
+  "evaluation_mae": {
+    "Seven-day average": 2.0493,
+    "Total x share": 2.0779,
+    "Random Forest": 2.1609,
+    "Same-weekday average": 2.2507,
+    "Same as yesterday": 2.4405
+  },
+  "decision_rule_passed": false,
+  "scikit_learn": "1.9.1",
+  "data_note": "demonstration data, not real customers"
+}
